@@ -320,7 +320,7 @@ void ofxSoundMixer::audioOut( float* output, int numFrames, int numChannels,long
 	}
 	if(source){
 		memset( working, 0, numFrames*numChannels*sizeof(float) );
-		source->audioOut( working, numFrames, numChannels, tickCount );
+		source->audioOut( working, numFrames, numChannels, 0 /*TODO: correct device id?*/, tickCount );
 		float *working_ptr = working;
 		float *output_ptr = output;
 		for ( int j=0; j<numFrames; j++ ) {

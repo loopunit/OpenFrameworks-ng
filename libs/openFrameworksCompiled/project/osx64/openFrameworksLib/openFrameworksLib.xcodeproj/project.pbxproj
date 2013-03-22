@@ -17,6 +17,7 @@
 		CA61BBEC16F8FF7C00155846 /* libkiss_fft.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBEB16F8FF7C00155846 /* libkiss_fft.a */; };
 		CA61BBEE16F8FF8A00155846 /* libtess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBED16F8FF8A00155846 /* libtess.a */; };
 		CA61BC0216F9056100155846 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC0116F9056100155846 /* libpixman-1.a */; };
+		CA9B06BE16FC278C006E8AD3 /* libPocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */; };
 		CAC9D19B16F8C319004A69DA /* of3dUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10816F8C318004A69DA /* of3dUtils.cpp */; };
 		CAC9D19D16F8C319004A69DA /* ofCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10A16F8C318004A69DA /* ofCamera.cpp */; };
 		CAC9D19F16F8C319004A69DA /* ofEasyCam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10C16F8C318004A69DA /* ofEasyCam.cpp */; };
@@ -81,6 +82,7 @@
 		CA61BBEB16F8FF7C00155846 /* libkiss_fft.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkiss_fft.a; path = ../../../../kiss/lib/osx64/libkiss_fft.a; sourceTree = "<group>"; };
 		CA61BBED16F8FF8A00155846 /* libtess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtess.a; path = ../../../../tess2/lib/osx64/libtess.a; sourceTree = "<group>"; };
 		CA61BC0116F9056100155846 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpixman-1.a"; path = "../../../../cairo/lib/osx64/libpixman-1.a"; sourceTree = "<group>"; };
+		CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoXML.a; path = ../../../../poco/lib/osx64/libPocoXML.a; sourceTree = "<group>"; };
 		CAC9D10016F8C16C004A69DA /* openFrameworksLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = openFrameworksLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC9D10816F8C318004A69DA /* of3dUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = of3dUtils.cpp; sourceTree = "<group>"; };
 		CAC9D10916F8C318004A69DA /* of3dUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = of3dUtils.h; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				CA61BBEA16F8FF6E00155846 /* librtaudio.a in Frameworks */,
 				CA61BBEC16F8FF7C00155846 /* libkiss_fft.a in Frameworks */,
 				CA61BBEE16F8FF8A00155846 /* libtess.a in Frameworks */,
+				CA9B06BE16FC278C006E8AD3 /* libPocoXML.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +248,7 @@
 		CAC9D0F716F8C16C004A69DA = {
 			isa = PBXGroup;
 			children = (
+				CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */,
 				CA61BC0116F9056100155846 /* libpixman-1.a */,
 				CA61BBDF16F8FF3B00155846 /* libfreeimage.a */,
 				CA61BBE116F8FF4A00155846 /* libfreetype.a */,

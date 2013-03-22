@@ -78,9 +78,9 @@ bool ofxSynthSample::load(string fileName) {
 bool ofxSynthSample::read(){
 	bool result;
 	ifstream inFile( myPath.c_str(), ios::in | ios::binary);
-	result = inFile;
+	result = !inFile.fail();
 
-	if (inFile) {
+	if (!inFile.fail()) {
 		printf("Reading wav file...\n"); // for debugging only
 		
 		inFile.seekg(4, ios::beg);

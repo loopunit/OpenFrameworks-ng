@@ -94,10 +94,12 @@ bool ofxUDPManager::Bind(unsigned short usPort)
 	//Port MUST	be in Network Byte Order
 	saServer.sin_port =	htons(usPort);
 
-	int	ret	= bind(m_hSocket,(struct sockaddr*)&saServer,sizeof(struct sockaddr));
-	if(ret==-1)  ofxNetworkCheckError();
+//	int	ret	= bind(m_hSocket,(struct sockaddr*)&saServer,sizeof(struct sockaddr));
+//	if(ret==-1)  ofxNetworkCheckError();
+	bind(m_hSocket,(struct sockaddr*)&saServer,sizeof(struct sockaddr));
+	return true;
 
-	return (ret	== 0);
+//	return (ret	== 0);
 }
 
 //--------------------------------------------------------------------------------
@@ -223,7 +225,7 @@ int	ofxUDPManager::SendAll(const char*	pBuff, const int iSize)
 		fd_set fd;
 		FD_ZERO(&fd);
 		FD_SET(m_hSocket, &fd);
-		timeval	tv=	{m_dwTimeoutSend, 0};
+		timeval	tv=	{static_cast<__darwin_time_t>(m_dwTimeoutSend), 0};
 		if(select(m_hSocket+1,NULL,&fd,NULL,&tv)== 0)
 		{
 			ofxNetworkCheckError();
