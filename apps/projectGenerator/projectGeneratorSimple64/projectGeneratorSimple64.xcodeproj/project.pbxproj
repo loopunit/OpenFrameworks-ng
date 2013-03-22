@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA61BC3C16F9133400155846 /* openFrameworks-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA61BC3716F9133400155846 /* openFrameworks-Info.plist */; };
+		CA61BC3D16F9133400155846 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BC3916F9133400155846 /* main.cpp */; };
+		CA61BC3E16F9133400155846 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BC3A16F9133400155846 /* testApp.cpp */; };
+		CA61BC4816F913E000155846 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC4516F913E000155846 /* libbz2.dylib */; };
+		CA61BC4A16F913E000155846 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC4716F913E000155846 /* libfmodex.dylib */; };
+		CA61BC4E16F913EC00155846 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC4B16F913EC00155846 /* Cocoa.framework */; };
+		CA61BC5116F9170400155846 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC4C16F913EC00155846 /* GLUT.framework */; };
+		CA61BC5216F9171E00155846 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC4D16F913EC00155846 /* OpenGL.framework */; };
+		CA61BC5516F9178800155846 /* openFrameworksLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC4416F913C300155846 /* openFrameworksLib.a */; };
+		CA61BC5916F918AF00155846 /* libfmodex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BC4716F913E000155846 /* libfmodex.dylib */; };
+		CA61BC9016F91D5E00155846 /* ofAddon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BC6316F91D5E00155846 /* ofAddon.cpp */; };
+		CA61BC9116F91D5E00155846 /* baseProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BC6616F91D5E00155846 /* baseProject.cpp */; };
+		CA61BC9516F91D5E00155846 /* xcodeProject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BC6E16F91D5E00155846 /* xcodeProject.cpp */; };
+		CA61BCA516F91D5E00155846 /* ofAppNoWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BC8C16F91D5E00155846 /* ofAppNoWindow.cpp */; };
+		CA61BCA616F91D5E00155846 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BC8E16F91D5E00155846 /* Utils.cpp */; };
+		CA61BCAC16F91FC000155846 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BCAB16F91FC000155846 /* libc++.1.dylib */; };
+		CA61BCCE16F9219300155846 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCB816F9219300155846 /* ofxBaseGui.cpp */; };
+		CA61BCCF16F9219300155846 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCBA16F9219300155846 /* ofxButton.cpp */; };
+		CA61BCD016F9219300155846 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCBD16F9219300155846 /* ofxLabel.cpp */; };
+		CA61BCD116F9219300155846 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCBF16F9219300155846 /* ofxPanel.cpp */; };
+		CA61BCD216F9219300155846 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCC116F9219300155846 /* ofxSlider.cpp */; };
+		CA61BCD316F9219300155846 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCC316F9219300155846 /* ofxToggle.cpp */; };
+		CA61BCD416F9219300155846 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCC716F9219300155846 /* tinyxml.cpp */; };
+		CA61BCD516F9219300155846 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCC916F9219300155846 /* tinyxmlerror.cpp */; };
+		CA61BCD616F9219300155846 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCCA16F9219300155846 /* tinyxmlparser.cpp */; };
+		CA61BCD716F9219300155846 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCCC16F9219300155846 /* ofxXmlSettings.cpp */; };
+		CA61BCD816F9383900155846 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA61BCAE16F920DD00155846 /* pugixml.cpp */; };
+		CA61BCF116F93A6F00155846 /* frabk.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BCDC16F939AD00155846 /* frabk.ttf */; };
+		CA61BCF216F93A6F00155846 /* Inconsolata.otf in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BCDD16F939AD00155846 /* Inconsolata.otf */; };
+		CA61BCF416F93A8200155846 /* ofw-logo.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BCDF16F939AD00155846 /* ofw-logo.png */; };
+		CA61BCF616F93A9700155846 /* projectGeneratorSettings.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BCE116F939AD00155846 /* projectGeneratorSettings.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA61BC4316F913C300155846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA61BC3F16F913C300155846 /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CAC9D10016F8C16C004A69DA;
+			remoteInfo = openFrameworksLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA61BC5816F9189B00155846 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				CA61BC5916F918AF00155846 /* libfmodex.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA61BCEB16F93A0500155846 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/fonts;
+			dstSubfolderSpec = 16;
+			files = (
+				CA61BCF116F93A6F00155846 /* frabk.ttf in CopyFiles */,
+				CA61BCF216F93A6F00155846 /* Inconsolata.otf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA61BCF316F93A7300155846 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/images;
+			dstSubfolderSpec = 16;
+			files = (
+				CA61BCF416F93A8200155846 /* ofw-logo.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA61BCF516F93A8700155846 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data/settings;
+			dstSubfolderSpec = 16;
+			files = (
+				CA61BCF616F93A9700155846 /* projectGeneratorSettings.xml in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA61BC1616F9129000155846 /* projectGenerator64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectGenerator64.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA61BC1C16F9129000155846 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA61BC1D16F9129000155846 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA61BC1E16F9129000155846 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA61BC3716F9133400155846 /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		CA61BC3916F9133400155846 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CA61BC3A16F9133400155846 /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
+		CA61BC3B16F9133400155846 /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
+		CA61BC3F16F913C300155846 /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx64/openFrameworksLib/openFrameworksLib.xcodeproj; sourceTree = "<group>"; };
+		CA61BC4516F913E000155846 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		CA61BC4716F913E000155846 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = ../../../libs/fmodex/lib/osx64/libfmodex.dylib; sourceTree = "<group>"; };
+		CA61BC4B16F913EC00155846 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA61BC4C16F913EC00155846 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CA61BC4D16F913EC00155846 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CA61BC6316F91D5E00155846 /* ofAddon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofAddon.cpp; sourceTree = "<group>"; };
+		CA61BC6416F91D5E00155846 /* ofAddon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAddon.h; sourceTree = "<group>"; };
+		CA61BC6616F91D5E00155846 /* baseProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baseProject.cpp; sourceTree = "<group>"; };
+		CA61BC6716F91D5E00155846 /* baseProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseProject.h; sourceTree = "<group>"; };
+		CA61BC6816F91D5E00155846 /* CBLinuxProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBLinuxProject.cpp; sourceTree = "<group>"; };
+		CA61BC6916F91D5E00155846 /* CBLinuxProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLinuxProject.h; sourceTree = "<group>"; };
+		CA61BC6A16F91D5E00155846 /* CBWinProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBWinProject.cpp; sourceTree = "<group>"; };
+		CA61BC6B16F91D5E00155846 /* CBWinProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWinProject.h; sourceTree = "<group>"; };
+		CA61BC6C16F91D5E00155846 /* visualStudioProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = visualStudioProject.cpp; sourceTree = "<group>"; };
+		CA61BC6D16F91D5E00155846 /* visualStudioProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visualStudioProject.h; sourceTree = "<group>"; };
+		CA61BC6E16F91D5E00155846 /* xcodeProject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xcodeProject.cpp; sourceTree = "<group>"; };
+		CA61BC6F16F91D5E00155846 /* xcodeProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xcodeProject.h; sourceTree = "<group>"; };
+		CA61BC7216F91D5E00155846 /* foreach.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = foreach.hpp; sourceTree = "<group>"; };
+		CA61BC8A16F91D5E00155846 /* textButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textButton.h; sourceTree = "<group>"; };
+		CA61BC8C16F91D5E00155846 /* ofAppNoWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofAppNoWindow.cpp; sourceTree = "<group>"; };
+		CA61BC8D16F91D5E00155846 /* ofAppNoWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAppNoWindow.h; sourceTree = "<group>"; };
+		CA61BC8E16F91D5E00155846 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		CA61BC8F16F91D5E00155846 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		CA61BCAB16F91FC000155846 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		CA61BCAD16F920DD00155846 /* pugiconfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = pugiconfig.hpp; path = src/pugiconfig.hpp; sourceTree = "<group>"; };
+		CA61BCAE16F920DD00155846 /* pugixml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pugixml.cpp; path = src/pugixml.cpp; sourceTree = "<group>"; };
+		CA61BCAF16F920DD00155846 /* pugixml.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = pugixml.hpp; path = src/pugixml.hpp; sourceTree = "<group>"; };
+		CA61BCB616F9219300155846 /* ofOscParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofOscParameter.h; sourceTree = "<group>"; };
+		CA61BCB716F9219300155846 /* ofParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofParameter.h; sourceTree = "<group>"; };
+		CA61BCB816F9219300155846 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBaseGui.cpp; sourceTree = "<group>"; };
+		CA61BCB916F9219300155846 /* ofxBaseGui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxBaseGui.h; sourceTree = "<group>"; };
+		CA61BCBA16F9219300155846 /* ofxButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxButton.cpp; sourceTree = "<group>"; };
+		CA61BCBB16F9219300155846 /* ofxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxButton.h; sourceTree = "<group>"; };
+		CA61BCBC16F9219300155846 /* ofxGui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxGui.h; sourceTree = "<group>"; };
+		CA61BCBD16F9219300155846 /* ofxLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxLabel.cpp; sourceTree = "<group>"; };
+		CA61BCBE16F9219300155846 /* ofxLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxLabel.h; sourceTree = "<group>"; };
+		CA61BCBF16F9219300155846 /* ofxPanel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxPanel.cpp; sourceTree = "<group>"; };
+		CA61BCC016F9219300155846 /* ofxPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxPanel.h; sourceTree = "<group>"; };
+		CA61BCC116F9219300155846 /* ofxSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSlider.cpp; sourceTree = "<group>"; };
+		CA61BCC216F9219300155846 /* ofxSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSlider.h; sourceTree = "<group>"; };
+		CA61BCC316F9219300155846 /* ofxToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
+		CA61BCC416F9219300155846 /* ofxToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
+		CA61BCC716F9219300155846 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		CA61BCC816F9219300155846 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		CA61BCC916F9219300155846 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		CA61BCCA16F9219300155846 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		CA61BCCC16F9219300155846 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
+		CA61BCCD16F9219300155846 /* ofxXmlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxXmlSettings.h; sourceTree = "<group>"; };
+		CA61BCDC16F939AD00155846 /* frabk.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = frabk.ttf; sourceTree = "<group>"; };
+		CA61BCDD16F939AD00155846 /* Inconsolata.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inconsolata.otf; sourceTree = "<group>"; };
+		CA61BCDF16F939AD00155846 /* ofw-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ofw-logo.png"; sourceTree = "<group>"; };
+		CA61BCE116F939AD00155846 /* projectGeneratorSettings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = projectGeneratorSettings.xml; sourceTree = "<group>"; };
+		CA61BCE216F939AD00155846 /* readMe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = readMe.html; path = bin/readMe.html; sourceTree = "<group>"; };
+		CA61BCE316F939AE00155846 /* readMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readMe.md; path = bin/readMe.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA61BC1316F9129000155846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA61BCAC16F91FC000155846 /* libc++.1.dylib in Frameworks */,
+				CA61BC5216F9171E00155846 /* OpenGL.framework in Frameworks */,
+				CA61BC5116F9170400155846 /* GLUT.framework in Frameworks */,
+				CA61BC4816F913E000155846 /* libbz2.dylib in Frameworks */,
+				CA61BC5516F9178800155846 /* openFrameworksLib.a in Frameworks */,
+				CA61BC4A16F913E000155846 /* libfmodex.dylib in Frameworks */,
+				CA61BC4E16F913EC00155846 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA61BC0D16F9129000155846 = {
+			isa = PBXGroup;
+			children = (
+				CA61BCD916F939AD00155846 /* data */,
+				CA61BCE216F939AD00155846 /* readMe.html */,
+				CA61BCE316F939AE00155846 /* readMe.md */,
+				CA61BC3716F9133400155846 /* openFrameworks-Info.plist */,
+				CA61BC5B16F918DE00155846 /* openFrameworks */,
+				CA61BC3816F9133400155846 /* src */,
+				CA61BC5C16F918F900155846 /* addons */,
+				CA61BC1816F9129000155846 /* Frameworks */,
+				CA61BC1716F9129000155846 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA61BC1716F9129000155846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC1616F9129000155846 /* projectGenerator64.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA61BC1816F9129000155846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCAB16F91FC000155846 /* libc++.1.dylib */,
+				CA61BC4516F913E000155846 /* libbz2.dylib */,
+				CA61BC4716F913E000155846 /* libfmodex.dylib */,
+				CA61BC4B16F913EC00155846 /* Cocoa.framework */,
+				CA61BC4C16F913EC00155846 /* GLUT.framework */,
+				CA61BC4D16F913EC00155846 /* OpenGL.framework */,
+				CA61BC1B16F9129000155846 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA61BC1B16F9129000155846 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC1C16F9129000155846 /* AppKit.framework */,
+				CA61BC1D16F9129000155846 /* CoreData.framework */,
+				CA61BC1E16F9129000155846 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA61BC3816F9133400155846 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC6216F91D5E00155846 /* addons */,
+				CA61BC6516F91D5E00155846 /* projects */,
+				CA61BC7016F91D5E00155846 /* pugixmlLib */,
+				CA61BC8A16F91D5E00155846 /* textButton.h */,
+				CA61BC8B16F91D5E00155846 /* utils */,
+				CA61BC3916F9133400155846 /* main.cpp */,
+				CA61BC3A16F9133400155846 /* testApp.cpp */,
+				CA61BC3B16F9133400155846 /* testApp.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CA61BC4016F913C300155846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC4416F913C300155846 /* openFrameworksLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA61BC5B16F918DE00155846 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC3F16F913C300155846 /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		CA61BC5C16F918F900155846 /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCB416F9219300155846 /* ofxGui */,
+				CA61BCC516F9219300155846 /* ofxXmlSettings */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		CA61BC6216F91D5E00155846 /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC6316F91D5E00155846 /* ofAddon.cpp */,
+				CA61BC6416F91D5E00155846 /* ofAddon.h */,
+			);
+			path = addons;
+			sourceTree = "<group>";
+		};
+		CA61BC6516F91D5E00155846 /* projects */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC6616F91D5E00155846 /* baseProject.cpp */,
+				CA61BC6716F91D5E00155846 /* baseProject.h */,
+				CA61BC6816F91D5E00155846 /* CBLinuxProject.cpp */,
+				CA61BC6916F91D5E00155846 /* CBLinuxProject.h */,
+				CA61BC6A16F91D5E00155846 /* CBWinProject.cpp */,
+				CA61BC6B16F91D5E00155846 /* CBWinProject.h */,
+				CA61BC6C16F91D5E00155846 /* visualStudioProject.cpp */,
+				CA61BC6D16F91D5E00155846 /* visualStudioProject.h */,
+				CA61BC6E16F91D5E00155846 /* xcodeProject.cpp */,
+				CA61BC6F16F91D5E00155846 /* xcodeProject.h */,
+			);
+			path = projects;
+			sourceTree = "<group>";
+		};
+		CA61BC7016F91D5E00155846 /* pugixmlLib */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCAD16F920DD00155846 /* pugiconfig.hpp */,
+				CA61BCAE16F920DD00155846 /* pugixml.cpp */,
+				CA61BCAF16F920DD00155846 /* pugixml.hpp */,
+				CA61BC7116F91D5E00155846 /* contrib */,
+			);
+			path = pugixmlLib;
+			sourceTree = "<group>";
+		};
+		CA61BC7116F91D5E00155846 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC7216F91D5E00155846 /* foreach.hpp */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		CA61BC8B16F91D5E00155846 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BC8C16F91D5E00155846 /* ofAppNoWindow.cpp */,
+				CA61BC8D16F91D5E00155846 /* ofAppNoWindow.h */,
+				CA61BC8E16F91D5E00155846 /* Utils.cpp */,
+				CA61BC8F16F91D5E00155846 /* Utils.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		CA61BCB416F9219300155846 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCB516F9219300155846 /* src */,
+			);
+			name = ofxGui;
+			path = ../../../addons/ofxGui;
+			sourceTree = "<group>";
+		};
+		CA61BCB516F9219300155846 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCB616F9219300155846 /* ofOscParameter.h */,
+				CA61BCB716F9219300155846 /* ofParameter.h */,
+				CA61BCB816F9219300155846 /* ofxBaseGui.cpp */,
+				CA61BCB916F9219300155846 /* ofxBaseGui.h */,
+				CA61BCBA16F9219300155846 /* ofxButton.cpp */,
+				CA61BCBB16F9219300155846 /* ofxButton.h */,
+				CA61BCBC16F9219300155846 /* ofxGui.h */,
+				CA61BCBD16F9219300155846 /* ofxLabel.cpp */,
+				CA61BCBE16F9219300155846 /* ofxLabel.h */,
+				CA61BCBF16F9219300155846 /* ofxPanel.cpp */,
+				CA61BCC016F9219300155846 /* ofxPanel.h */,
+				CA61BCC116F9219300155846 /* ofxSlider.cpp */,
+				CA61BCC216F9219300155846 /* ofxSlider.h */,
+				CA61BCC316F9219300155846 /* ofxToggle.cpp */,
+				CA61BCC416F9219300155846 /* ofxToggle.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CA61BCC516F9219300155846 /* ofxXmlSettings */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCC616F9219300155846 /* libs */,
+				CA61BCCB16F9219300155846 /* src */,
+			);
+			name = ofxXmlSettings;
+			path = ../../../addons/ofxXmlSettings;
+			sourceTree = "<group>";
+		};
+		CA61BCC616F9219300155846 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCC716F9219300155846 /* tinyxml.cpp */,
+				CA61BCC816F9219300155846 /* tinyxml.h */,
+				CA61BCC916F9219300155846 /* tinyxmlerror.cpp */,
+				CA61BCCA16F9219300155846 /* tinyxmlparser.cpp */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		CA61BCCB16F9219300155846 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCCC16F9219300155846 /* ofxXmlSettings.cpp */,
+				CA61BCCD16F9219300155846 /* ofxXmlSettings.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CA61BCD916F939AD00155846 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCDB16F939AD00155846 /* fonts */,
+				CA61BCDE16F939AD00155846 /* images */,
+				CA61BCE016F939AD00155846 /* settings */,
+			);
+			name = data;
+			path = bin/data;
+			sourceTree = "<group>";
+		};
+		CA61BCDB16F939AD00155846 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCDC16F939AD00155846 /* frabk.ttf */,
+				CA61BCDD16F939AD00155846 /* Inconsolata.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		CA61BCDE16F939AD00155846 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCDF16F939AD00155846 /* ofw-logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CA61BCE016F939AD00155846 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				CA61BCE116F939AD00155846 /* projectGeneratorSettings.xml */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA61BC1516F9129000155846 /* projectGenerator64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA61BC3316F9129100155846 /* Build configuration list for PBXNativeTarget "projectGenerator64" */;
+			buildPhases = (
+				CA61BC1216F9129000155846 /* Sources */,
+				CA61BC1316F9129000155846 /* Frameworks */,
+				CA61BC1416F9129000155846 /* Resources */,
+				CA61BC5716F917CC00155846 /* ShellScript */,
+				CA61BC5816F9189B00155846 /* CopyFiles */,
+				CA61BCEB16F93A0500155846 /* CopyFiles */,
+				CA61BCF316F93A7300155846 /* CopyFiles */,
+				CA61BCF516F93A8700155846 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projectGenerator64;
+			productName = projectGenerator64;
+			productReference = CA61BC1616F9129000155846 /* projectGenerator64.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA61BC0E16F9129000155846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Rausch";
+			};
+			buildConfigurationList = CA61BC1116F9129000155846 /* Build configuration list for PBXProject "projectGeneratorSimple64" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA61BC0D16F9129000155846;
+			productRefGroup = CA61BC1716F9129000155846 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA61BC4016F913C300155846 /* Products */;
+					ProjectRef = CA61BC3F16F913C300155846 /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CA61BC1516F9129000155846 /* projectGenerator64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CA61BC4416F913C300155846 /* openFrameworksLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksLib.a;
+			remoteRef = CA61BC4316F913C300155846 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA61BC1416F9129000155846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA61BC3C16F9133400155846 /* openFrameworks-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA61BC5716F917CC00155846 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA61BC1216F9129000155846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA61BC3D16F9133400155846 /* main.cpp in Sources */,
+				CA61BC3E16F9133400155846 /* testApp.cpp in Sources */,
+				CA61BC9016F91D5E00155846 /* ofAddon.cpp in Sources */,
+				CA61BC9116F91D5E00155846 /* baseProject.cpp in Sources */,
+				CA61BC9516F91D5E00155846 /* xcodeProject.cpp in Sources */,
+				CA61BCA516F91D5E00155846 /* ofAppNoWindow.cpp in Sources */,
+				CA61BCA616F91D5E00155846 /* Utils.cpp in Sources */,
+				CA61BCCE16F9219300155846 /* ofxBaseGui.cpp in Sources */,
+				CA61BCCF16F9219300155846 /* ofxButton.cpp in Sources */,
+				CA61BCD016F9219300155846 /* ofxLabel.cpp in Sources */,
+				CA61BCD116F9219300155846 /* ofxPanel.cpp in Sources */,
+				CA61BCD216F9219300155846 /* ofxSlider.cpp in Sources */,
+				CA61BCD316F9219300155846 /* ofxToggle.cpp in Sources */,
+				CA61BCD416F9219300155846 /* tinyxml.cpp in Sources */,
+				CA61BCD516F9219300155846 /* tinyxmlerror.cpp in Sources */,
+				CA61BCD616F9219300155846 /* tinyxmlparser.cpp in Sources */,
+				CA61BCD716F9219300155846 /* ofxXmlSettings.cpp in Sources */,
+				CA61BCD816F9383900155846 /* pugixml.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA61BC3116F9129100155846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../../libs/openFrameworks/**",
+					../../../libs/tess2/include,
+					../../../libs/fmodex/include,
+					../../../libs/cairo/include,
+					../../../libs/poco/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA61BC3216F9129100155846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../../libs/openFrameworks/**",
+					../../../libs/tess2/include,
+					../../../libs/fmodex/include,
+					../../../libs/cairo/include,
+					../../../libs/poco/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA61BC3416F9129100155846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/fmodex/lib/osx64\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA61BC3516F9129100155846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/fmodex/lib/osx64\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA61BC1116F9129000155846 /* Build configuration list for PBXProject "projectGeneratorSimple64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA61BC3116F9129100155846 /* Debug */,
+				CA61BC3216F9129100155846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA61BC3316F9129100155846 /* Build configuration list for PBXNativeTarget "projectGenerator64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA61BC3416F9129100155846 /* Debug */,
+				CA61BC3516F9129100155846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA61BC0E16F9129000155846 /* Project object */;
+}

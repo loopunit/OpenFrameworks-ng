@@ -1,0 +1,6 @@
+
+<!-- the path from this EXE / APP to the root folder -->
+<appToRoot>/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/openframeworks</appToRoot>
+
+<!-- from the OF root, where should we encourage people to put apps -->
+<defaultNewProjectLocation>apps/myApps</defaultNewProjectLocation>
