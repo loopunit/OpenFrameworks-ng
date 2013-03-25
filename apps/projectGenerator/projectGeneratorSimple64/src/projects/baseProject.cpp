@@ -123,6 +123,18 @@ bool baseProject::save(bool createMakeFile){
         }
     }
 
+	if (allAddonLibs.size() > 0)
+	{
+		string tempPath = projectDir + "Project.xcconfig";
+		FILE *f = fopen(tempPath.c_str(), "a+");
+		fseek(f, SEEK_END, 0);
+		if (f)
+		{
+			fprintf(f, "\n");
+			fprintf(f, "OF_OTHER_LIBS = %s", allAddonLibs.c_str());
+			fclose(f);
+		}
+	}
 	return saveProjectFile();
 }
 

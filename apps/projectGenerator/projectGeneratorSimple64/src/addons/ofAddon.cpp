@@ -112,7 +112,7 @@ void ofAddon::fromFS(string path, string platform){
 
 	// the dirList verbosity is crazy, so I'm setting this off for now.
 	//ofSetLogLevel(OF_LOG_NOTICE);
-    getFoldersRecursively(path + "/libs", libFolders, platform);
+	
     vector < string > srcFolders;
     getFoldersRecursively(path + "/src", srcFolders, platform);
 	//ofSetLogLevel(OF_LOG_VERBOSE);
@@ -120,7 +120,7 @@ void ofAddon::fromFS(string path, string platform){
     for (int i = 0; i < libFolders.size(); i++){
         libFolders[i].erase (libFolders[i].begin(), libFolders[i].begin()+ofRootPath.length());
         libFolders[i] = pathToOF + libFolders[i];
-        paths.push_back(libFolders[i]);
+		paths.push_back(libFolders[i]);
     }
 
     for (int i = 0; i < srcFolders.size(); i++){
@@ -132,7 +132,15 @@ void ofAddon::fromFS(string path, string platform){
     paths.sort();
     paths.unique();
     for (list<string>::iterator it=paths.begin(); it!=paths.end(); ++it){
-        includePaths.push_back(*it);
+		// TODO: this works for juce, but needs to be extended to a more general technique for any addon you don't want each include added to
+		if (!strcasestr((*it).c_str(), "juce/include/juce"))
+		{
+	        includePaths.push_back(*it);
+		}
+		else
+		{
+			printf("Ignoring juce header path: %s\n", (*it).c_str());
+		}
     }
 
 }

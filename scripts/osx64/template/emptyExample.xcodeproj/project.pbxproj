@@ -10,10 +10,24 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>BB4B014C10F69532006C3DED</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>addons</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>CA61BC0D16F9129000155846</key>
 		<dict>
 			<key>children</key>
 			<array>
+				<string>CA6B2DE316FF9B5100661AD9</string>
+				<string>CA6B2DE016FF9B3F00661AD9</string>
+				<string>CA6B2DDD16FF9B3A00661AD9</string>
 				<string>CA61BC3716F9133400155846</string>
 				<string>CA61BD0016F942A700155846</string>
 				<string>CA61BC5B16F918DE00155846</string>
@@ -106,6 +120,10 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
+				<string>CA6B2DE416FF9B5100661AD9</string>
+				<string>CA6B2DE216FF9B4700661AD9</string>
+				<string>CA6B2DE116FF9B3F00661AD9</string>
+				<string>CA6B2DDE16FF9B3A00661AD9</string>
 				<string>CA61BCF916F93C7000155846</string>
 				<string>CA61BC5216F9171E00155846</string>
 				<string>CA61BC5116F9170400155846</string>
@@ -189,6 +207,7 @@
 				<string>CA61BCF816F93C7000155846</string>
 				<string>CA61BC4516F913E000155846</string>
 				<string>CA61BC1C16F9129000155846</string>
+				<string>CA6B2DD316FF94FA00661AD9</string>
 				<string>CA61BC1D16F9129000155846</string>
 				<string>CA61BC1E16F9129000155846</string>
 				<string>CA61BC4B16F913EC00155846</string>
@@ -305,7 +324,10 @@
 				<key>ONLY_ACTIVE_ARCH</key>
 				<string>YES</string>
 				<key>OTHER_LDFLAGS</key>
-				<string>$(OF_PATH)/libs/fmodex/lib/osx64/libfmodex.dylib</string>
+				<array>
+					<string>$(OF_CORE_LIBS)</string>
+					<string>$(OF_OTHER_LIBS)</string>
+				</array>
 				<key>SDKROOT</key>
 				<string>macosx</string>
 			</dict>
@@ -367,7 +389,10 @@
 				<key>MACOSX_DEPLOYMENT_TARGET</key>
 				<string>10.8</string>
 				<key>OTHER_LDFLAGS</key>
-				<string>$(OF_PATH)/libs/fmodex/lib/osx64/libfmodex.dylib</string>
+				<array>
+					<string>$(OF_CORE_LIBS)</string>
+					<string>$(OF_OTHER_LIBS)</string>
+				</array>
 				<key>SDKROOT</key>
 				<string>macosx</string>
 			</dict>
@@ -461,21 +486,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E4B69E1C0A3A1BDC003C02F2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CA61BC3916F9133400155846</string>
-				<string>CA61BC3A16F9133400155846</string>
-				<string>CA61BC3B16F9133400155846</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>src</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CA61BC3916F9133400155846</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -514,13 +524,6 @@
 			<string>testApp.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4B69E200A3A1BDC003C02F2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA61BC3916F9133400155846</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>CA61BC3E16F9133400155846</key>
 		<dict>
@@ -716,17 +719,6 @@ install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$T
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BB4B014C10F69532006C3DED</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>addons</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>CA61BCF816F93C7000155846</key>
 		<dict>
 			<key>isa</key>
@@ -759,6 +751,108 @@ install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$T
 			<string>Project.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA6B2DD316FF94FA00661AD9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Carbon.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Carbon.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CA6B2DDD16FF9B3A00661AD9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>WebKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/WebKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CA6B2DDE16FF9B3A00661AD9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA6B2DDD16FF9B3A00661AD9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CA6B2DE016FF9B3F00661AD9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CA6B2DE116FF9B3F00661AD9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA6B2DE016FF9B3F00661AD9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CA6B2DE216FF9B4700661AD9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA6B2DD316FF94FA00661AD9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CA6B2DE316FF9B5100661AD9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>IOKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/IOKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CA6B2DE416FF9B5100661AD9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA6B2DE316FF9B5100661AD9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E4B69E1C0A3A1BDC003C02F2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CA61BC3916F9133400155846</string>
+				<string>CA61BC3A16F9133400155846</string>
+				<string>CA61BC3B16F9133400155846</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>src</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4B69E200A3A1BDC003C02F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA61BC3916F9133400155846</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

@@ -615,11 +615,16 @@ void xcodeProject::addInclude(string includeName){
 
 }
 
-
 void xcodeProject::addLibrary(string libraryName, LibType libType){
-
+	
+	if (allAddonLibs.size() > 0)
+	{
+		allAddonLibs+= " ";
+	}
+	allAddonLibs+= "\"" + libraryName + "\"";
+	
+#if 0
     cout << " adding libraryName " << libraryName << endl;
-
 
     char query[256];
     sprintf(query, "//key[contains(.,'baseConfigurationReference')]/parent::node()//key[contains(.,'OTHER_LDFLAGS')]/following-sibling::node()[1]");
@@ -660,6 +665,7 @@ void xcodeProject::addLibrary(string libraryName, LibType libType){
     }
 
     //saveFile(projectDir + "/" + projectName + ".xcodeproj" + "/project.pbxproj");
+#endif
 }
 
 void xcodeProject::addAddon(ofAddon & addon){

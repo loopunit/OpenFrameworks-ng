@@ -31,7 +31,7 @@ public:
 
     // this shouldn't be called by anyone.  call "create(...), save" etc
 private:
-
+	
     virtual void setup()=0;
     virtual bool createProjectFile()=0;
     virtual bool loadProjectFile()=0;
@@ -66,6 +66,7 @@ private:
 protected:
 
     vector<ofAddon> addons;
+	string allAddonLibs;
 };
 
 
