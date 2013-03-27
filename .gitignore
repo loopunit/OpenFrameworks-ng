@@ -9,3 +9,5 @@
 # Compiled Static libraries
 *.lai
 *.la
+*.xcuserstate
+*.xcuserdatad
