@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers
+END
+SDL_config_macos.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_config_macos.h
+END
+SDL_config_dreamcast.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_config_dreamcast.h
+END
+SDL_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_error.h
+END
+SDL_audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_audio.h
+END
+SDL_cpuinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_cpuinfo.h
+END
+SDL_events.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_events.h
+END
+SDL_video.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_video.h
+END
+SDL_thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_thread.h
+END
+SDL_rwops.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_rwops.h
+END
+SDL_active.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_active.h
+END
+begin_code.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/begin_code.h
+END
+SDL_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_timer.h
+END
+SDL_stdinc.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_stdinc.h
+END
+SDL_opengl.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_opengl.h
+END
+SDL_main.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_main.h
+END
+SDL_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_version.h
+END
+SDL_config_win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_config_win32.h
+END
+SDL_mouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_mouse.h
+END
+SDL_config_os2.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_config_os2.h
+END
+SDL_getenv.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_getenv.h
+END
+close_code.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/close_code.h
+END
+SDL_endian.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_endian.h
+END
+SDL_byteorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_byteorder.h
+END
+SDL_joystick.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_joystick.h
+END
+SDL_keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_keyboard.h
+END
+SDL_mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_mutex.h
+END
+SDL_cdrom.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_cdrom.h
+END
+SDL_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_types.h
+END
+SDL_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_config.h
+END
+SDL_copying.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_copying.h
+END
+SDL_config_macosx.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_config_macosx.h
+END
+SDL_name.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_name.h
+END
+SDL.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL.h
+END
+SDL_loadso.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_loadso.h
+END
+SDL_keysym.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_keysym.h
+END
+SDL_syswm.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_syswm.h
+END
+SDL_quit.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_quit.h
+END
+SDL_platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/Bin/libtess2.app/Contents/Frameworks/SDL.framework/Versions/A/Headers/SDL_platform.h
+END

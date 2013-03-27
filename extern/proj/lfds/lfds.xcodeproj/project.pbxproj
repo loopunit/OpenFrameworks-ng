@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB551A7169A756C00D7D95A /* lfds611_abstraction_cas.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55178169A756C00D7D95A /* lfds611_abstraction_cas.c */; };
+		CAB551A8169A756C00D7D95A /* lfds611_abstraction_dcas.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55179169A756C00D7D95A /* lfds611_abstraction_dcas.c */; };
+		CAB551A9169A756C00D7D95A /* lfds611_abstraction_free.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5517A169A756C00D7D95A /* lfds611_abstraction_free.c */; };
+		CAB551AA169A756C00D7D95A /* lfds611_abstraction_increment.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5517B169A756C00D7D95A /* lfds611_abstraction_increment.c */; };
+		CAB551AD169A756C00D7D95A /* lfds611_abstraction_malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5517E169A756C00D7D95A /* lfds611_abstraction_malloc.c */; };
+		CAB551AE169A756C00D7D95A /* lfds611_freelist_delete.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55180169A756C00D7D95A /* lfds611_freelist_delete.c */; };
+		CAB551AF169A756C00D7D95A /* lfds611_freelist_get_and_set.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55181169A756C00D7D95A /* lfds611_freelist_get_and_set.c */; };
+		CAB551B1169A756C00D7D95A /* lfds611_freelist_new.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55183169A756C00D7D95A /* lfds611_freelist_new.c */; };
+		CAB551B2169A756C00D7D95A /* lfds611_freelist_pop_push.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55184169A756C00D7D95A /* lfds611_freelist_pop_push.c */; };
+		CAB551B3169A756C00D7D95A /* lfds611_freelist_query.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55185169A756C00D7D95A /* lfds611_freelist_query.c */; };
+		CAB551B4169A756C00D7D95A /* lfds611_liblfds_abstraction_test_helpers.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55187169A756C00D7D95A /* lfds611_liblfds_abstraction_test_helpers.c */; };
+		CAB551B5169A756C00D7D95A /* lfds611_liblfds_aligned_free.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55188169A756C00D7D95A /* lfds611_liblfds_aligned_free.c */; };
+		CAB551B6169A756C00D7D95A /* lfds611_liblfds_aligned_malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55189169A756C00D7D95A /* lfds611_liblfds_aligned_malloc.c */; };
+		CAB551B8169A756C00D7D95A /* lfds611_queue_delete.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5518D169A756C00D7D95A /* lfds611_queue_delete.c */; };
+		CAB551BA169A756C00D7D95A /* lfds611_queue_new.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5518F169A756C00D7D95A /* lfds611_queue_new.c */; };
+		CAB551BB169A756C00D7D95A /* lfds611_queue_query.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55190169A756C00D7D95A /* lfds611_queue_query.c */; };
+		CAB551BC169A756C00D7D95A /* lfds611_queue_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55191169A756C00D7D95A /* lfds611_queue_queue.c */; };
+		CAB551BD169A756C00D7D95A /* lfds611_ringbuffer_delete.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55193169A756C00D7D95A /* lfds611_ringbuffer_delete.c */; };
+		CAB551BE169A756C00D7D95A /* lfds611_ringbuffer_get_and_put.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55194169A756C00D7D95A /* lfds611_ringbuffer_get_and_put.c */; };
+		CAB551C0169A756C00D7D95A /* lfds611_ringbuffer_new.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55196169A756C00D7D95A /* lfds611_ringbuffer_new.c */; };
+		CAB551C1169A756C00D7D95A /* lfds611_ringbuffer_query.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55197169A756C00D7D95A /* lfds611_ringbuffer_query.c */; };
+		CAB551C2169A756C00D7D95A /* lfds611_slist_delete.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB55199169A756C00D7D95A /* lfds611_slist_delete.c */; };
+		CAB551C3169A756C00D7D95A /* lfds611_slist_get_and_set.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5519A169A756C00D7D95A /* lfds611_slist_get_and_set.c */; };
+		CAB551C5169A756C00D7D95A /* lfds611_slist_link.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5519C169A756C00D7D95A /* lfds611_slist_link.c */; };
+		CAB551C6169A756C00D7D95A /* lfds611_slist_new.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5519D169A756C00D7D95A /* lfds611_slist_new.c */; };
+		CAB551C7169A756C00D7D95A /* lfds611_stack_delete.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB5519F169A756C00D7D95A /* lfds611_stack_delete.c */; };
+		CAB551C9169A756C00D7D95A /* lfds611_stack_new.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB551A1169A756C00D7D95A /* lfds611_stack_new.c */; };
+		CAB551CA169A756C00D7D95A /* lfds611_stack_push_pop.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB551A2169A756C00D7D95A /* lfds611_stack_push_pop.c */; };
+		CAB551CB169A756C00D7D95A /* lfds611_stack_query.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB551A3169A756C00D7D95A /* lfds611_stack_query.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAB5516A169A74FF00D7D95A /* liblfds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblfds.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB55172169A756C00D7D95A /* liblfds611.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblfds611.h; sourceTree = "<group>"; };
+		CAB55174169A756C00D7D95A /* dirs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dirs; sourceTree = "<group>"; };
+		CAB55175169A756C00D7D95A /* driver_entry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = driver_entry.c; sourceTree = "<group>"; };
+		CAB55176169A756C00D7D95A /* driver_entry_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = driver_entry_readme.txt; sourceTree = "<group>"; };
+		CAB55178169A756C00D7D95A /* lfds611_abstraction_cas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_abstraction_cas.c; sourceTree = "<group>"; };
+		CAB55179169A756C00D7D95A /* lfds611_abstraction_dcas.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_abstraction_dcas.c; sourceTree = "<group>"; };
+		CAB5517A169A756C00D7D95A /* lfds611_abstraction_free.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_abstraction_free.c; sourceTree = "<group>"; };
+		CAB5517B169A756C00D7D95A /* lfds611_abstraction_increment.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_abstraction_increment.c; sourceTree = "<group>"; };
+		CAB5517C169A756C00D7D95A /* lfds611_abstraction_internal_body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_abstraction_internal_body.h; sourceTree = "<group>"; };
+		CAB5517D169A756C00D7D95A /* lfds611_abstraction_internal_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_abstraction_internal_wrapper.h; sourceTree = "<group>"; };
+		CAB5517E169A756C00D7D95A /* lfds611_abstraction_malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_abstraction_malloc.c; sourceTree = "<group>"; };
+		CAB55180169A756C00D7D95A /* lfds611_freelist_delete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_freelist_delete.c; sourceTree = "<group>"; };
+		CAB55181169A756C00D7D95A /* lfds611_freelist_get_and_set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_freelist_get_and_set.c; sourceTree = "<group>"; };
+		CAB55182169A756C00D7D95A /* lfds611_freelist_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_freelist_internal.h; sourceTree = "<group>"; };
+		CAB55183169A756C00D7D95A /* lfds611_freelist_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_freelist_new.c; sourceTree = "<group>"; };
+		CAB55184169A756C00D7D95A /* lfds611_freelist_pop_push.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_freelist_pop_push.c; sourceTree = "<group>"; };
+		CAB55185169A756C00D7D95A /* lfds611_freelist_query.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_freelist_query.c; sourceTree = "<group>"; };
+		CAB55187169A756C00D7D95A /* lfds611_liblfds_abstraction_test_helpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_liblfds_abstraction_test_helpers.c; sourceTree = "<group>"; };
+		CAB55188169A756C00D7D95A /* lfds611_liblfds_aligned_free.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_liblfds_aligned_free.c; sourceTree = "<group>"; };
+		CAB55189169A756C00D7D95A /* lfds611_liblfds_aligned_malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_liblfds_aligned_malloc.c; sourceTree = "<group>"; };
+		CAB5518A169A756C00D7D95A /* lfds611_liblfds_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_liblfds_internal.h; sourceTree = "<group>"; };
+		CAB5518B169A756C00D7D95A /* lfds611_liblfds_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lfds611_liblfds_readme.txt; sourceTree = "<group>"; };
+		CAB5518D169A756C00D7D95A /* lfds611_queue_delete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_queue_delete.c; sourceTree = "<group>"; };
+		CAB5518E169A756C00D7D95A /* lfds611_queue_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_queue_internal.h; sourceTree = "<group>"; };
+		CAB5518F169A756C00D7D95A /* lfds611_queue_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_queue_new.c; sourceTree = "<group>"; };
+		CAB55190169A756C00D7D95A /* lfds611_queue_query.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_queue_query.c; sourceTree = "<group>"; };
+		CAB55191169A756C00D7D95A /* lfds611_queue_queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_queue_queue.c; sourceTree = "<group>"; };
+		CAB55193169A756C00D7D95A /* lfds611_ringbuffer_delete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_ringbuffer_delete.c; sourceTree = "<group>"; };
+		CAB55194169A756C00D7D95A /* lfds611_ringbuffer_get_and_put.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_ringbuffer_get_and_put.c; sourceTree = "<group>"; };
+		CAB55195169A756C00D7D95A /* lfds611_ringbuffer_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_ringbuffer_internal.h; sourceTree = "<group>"; };
+		CAB55196169A756C00D7D95A /* lfds611_ringbuffer_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_ringbuffer_new.c; sourceTree = "<group>"; };
+		CAB55197169A756C00D7D95A /* lfds611_ringbuffer_query.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_ringbuffer_query.c; sourceTree = "<group>"; };
+		CAB55199169A756C00D7D95A /* lfds611_slist_delete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_slist_delete.c; sourceTree = "<group>"; };
+		CAB5519A169A756C00D7D95A /* lfds611_slist_get_and_set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_slist_get_and_set.c; sourceTree = "<group>"; };
+		CAB5519B169A756C00D7D95A /* lfds611_slist_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_slist_internal.h; sourceTree = "<group>"; };
+		CAB5519C169A756C00D7D95A /* lfds611_slist_link.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_slist_link.c; sourceTree = "<group>"; };
+		CAB5519D169A756C00D7D95A /* lfds611_slist_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_slist_new.c; sourceTree = "<group>"; };
+		CAB5519F169A756C00D7D95A /* lfds611_stack_delete.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_stack_delete.c; sourceTree = "<group>"; };
+		CAB551A0169A756C00D7D95A /* lfds611_stack_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfds611_stack_internal.h; sourceTree = "<group>"; };
+		CAB551A1169A756C00D7D95A /* lfds611_stack_new.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_stack_new.c; sourceTree = "<group>"; };
+		CAB551A2169A756C00D7D95A /* lfds611_stack_push_pop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_stack_push_pop.c; sourceTree = "<group>"; };
+		CAB551A3169A756C00D7D95A /* lfds611_stack_query.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfds611_stack_query.c; sourceTree = "<group>"; };
+		CAB551A4169A756C00D7D95A /* liblfds611_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblfds611_internal.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB55167169A74FF00D7D95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB5515F169A74FF00D7D95A = {
+			isa = PBXGroup;
+			children = (
+				CAB55171169A756C00D7D95A /* inc */,
+				CAB55173169A756C00D7D95A /* src */,
+				CAB5516B169A74FF00D7D95A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB5516B169A74FF00D7D95A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB5516A169A74FF00D7D95A /* liblfds.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB55171169A756C00D7D95A /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				CAB55172169A756C00D7D95A /* liblfds611.h */,
+			);
+			name = inc;
+			path = ../../trees/lfds/liblfds611/inc;
+			sourceTree = "<group>";
+		};
+		CAB55173169A756C00D7D95A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CAB55174169A756C00D7D95A /* dirs */,
+				CAB55175169A756C00D7D95A /* driver_entry.c */,
+				CAB55176169A756C00D7D95A /* driver_entry_readme.txt */,
+				CAB55177169A756C00D7D95A /* lfds611_abstraction */,
+				CAB5517F169A756C00D7D95A /* lfds611_freelist */,
+				CAB55186169A756C00D7D95A /* lfds611_liblfds */,
+				CAB5518C169A756C00D7D95A /* lfds611_queue */,
+				CAB55192169A756C00D7D95A /* lfds611_ringbuffer */,
+				CAB55198169A756C00D7D95A /* lfds611_slist */,
+				CAB5519E169A756C00D7D95A /* lfds611_stack */,
+				CAB551A4169A756C00D7D95A /* liblfds611_internal.h */,
+			);
+			name = src;
+			path = ../../trees/lfds/liblfds611/src;
+			sourceTree = "<group>";
+		};
+		CAB55177169A756C00D7D95A /* lfds611_abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				CAB55178169A756C00D7D95A /* lfds611_abstraction_cas.c */,
+				CAB55179169A756C00D7D95A /* lfds611_abstraction_dcas.c */,
+				CAB5517A169A756C00D7D95A /* lfds611_abstraction_free.c */,
+				CAB5517B169A756C00D7D95A /* lfds611_abstraction_increment.c */,
+				CAB5517C169A756C00D7D95A /* lfds611_abstraction_internal_body.h */,
+				CAB5517D169A756C00D7D95A /* lfds611_abstraction_internal_wrapper.h */,
+				CAB5517E169A756C00D7D95A /* lfds611_abstraction_malloc.c */,
+			);
+			path = lfds611_abstraction;
+			sourceTree = "<group>";
+		};
+		CAB5517F169A756C00D7D95A /* lfds611_freelist */ = {
+			isa = PBXGroup;
+			children = (
+				CAB55180169A756C00D7D95A /* lfds611_freelist_delete.c */,
+				CAB55181169A756C00D7D95A /* lfds611_freelist_get_and_set.c */,
+				CAB55182169A756C00D7D95A /* lfds611_freelist_internal.h */,
+				CAB55183169A756C00D7D95A /* lfds611_freelist_new.c */,
+				CAB55184169A756C00D7D95A /* lfds611_freelist_pop_push.c */,
+				CAB55185169A756C00D7D95A /* lfds611_freelist_query.c */,
+			);
+			path = lfds611_freelist;
+			sourceTree = "<group>";
+		};
+		CAB55186169A756C00D7D95A /* lfds611_liblfds */ = {
+			isa = PBXGroup;
+			children = (
+				CAB55187169A756C00D7D95A /* lfds611_liblfds_abstraction_test_helpers.c */,
+				CAB55188169A756C00D7D95A /* lfds611_liblfds_aligned_free.c */,
+				CAB55189169A756C00D7D95A /* lfds611_liblfds_aligned_malloc.c */,
+				CAB5518A169A756C00D7D95A /* lfds611_liblfds_internal.h */,
+				CAB5518B169A756C00D7D95A /* lfds611_liblfds_readme.txt */,
+			);
+			path = lfds611_liblfds;
+			sourceTree = "<group>";
+		};
+		CAB5518C169A756C00D7D95A /* lfds611_queue */ = {
+			isa = PBXGroup;
+			children = (
+				CAB5518D169A756C00D7D95A /* lfds611_queue_delete.c */,
+				CAB5518E169A756C00D7D95A /* lfds611_queue_internal.h */,
+				CAB5518F169A756C00D7D95A /* lfds611_queue_new.c */,
+				CAB55190169A756C00D7D95A /* lfds611_queue_query.c */,
+				CAB55191169A756C00D7D95A /* lfds611_queue_queue.c */,
+			);
+			path = lfds611_queue;
+			sourceTree = "<group>";
+		};
+		CAB55192169A756C00D7D95A /* lfds611_ringbuffer */ = {
+			isa = PBXGroup;
+			children = (
+				CAB55193169A756C00D7D95A /* lfds611_ringbuffer_delete.c */,
+				CAB55194169A756C00D7D95A /* lfds611_ringbuffer_get_and_put.c */,
+				CAB55195169A756C00D7D95A /* lfds611_ringbuffer_internal.h */,
+				CAB55196169A756C00D7D95A /* lfds611_ringbuffer_new.c */,
+				CAB55197169A756C00D7D95A /* lfds611_ringbuffer_query.c */,
+			);
+			path = lfds611_ringbuffer;
+			sourceTree = "<group>";
+		};
+		CAB55198169A756C00D7D95A /* lfds611_slist */ = {
+			isa = PBXGroup;
+			children = (
+				CAB55199169A756C00D7D95A /* lfds611_slist_delete.c */,
+				CAB5519A169A756C00D7D95A /* lfds611_slist_get_and_set.c */,
+				CAB5519B169A756C00D7D95A /* lfds611_slist_internal.h */,
+				CAB5519C169A756C00D7D95A /* lfds611_slist_link.c */,
+				CAB5519D169A756C00D7D95A /* lfds611_slist_new.c */,
+			);
+			path = lfds611_slist;
+			sourceTree = "<group>";
+		};
+		CAB5519E169A756C00D7D95A /* lfds611_stack */ = {
+			isa = PBXGroup;
+			children = (
+				CAB5519F169A756C00D7D95A /* lfds611_stack_delete.c */,
+				CAB551A0169A756C00D7D95A /* lfds611_stack_internal.h */,
+				CAB551A1169A756C00D7D95A /* lfds611_stack_new.c */,
+				CAB551A2169A756C00D7D95A /* lfds611_stack_push_pop.c */,
+				CAB551A3169A756C00D7D95A /* lfds611_stack_query.c */,
+			);
+			path = lfds611_stack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAB55168169A74FF00D7D95A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAB55169169A74FF00D7D95A /* lfds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB5516E169A74FF00D7D95A /* Build configuration list for PBXNativeTarget "lfds" */;
+			buildPhases = (
+				CAB55166169A74FF00D7D95A /* Sources */,
+				CAB55167169A74FF00D7D95A /* Frameworks */,
+				CAB55168169A74FF00D7D95A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lfds;
+			productName = lfds;
+			productReference = CAB5516A169A74FF00D7D95A /* liblfds.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB55161169A74FF00D7D95A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Rausch";
+			};
+			buildConfigurationList = CAB55164169A74FF00D7D95A /* Build configuration list for PBXProject "lfds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAB5515F169A74FF00D7D95A;
+			productRefGroup = CAB5516B169A74FF00D7D95A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB55169169A74FF00D7D95A /* lfds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB55166169A74FF00D7D95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB551A7169A756C00D7D95A /* lfds611_abstraction_cas.c in Sources */,
+				CAB551A8169A756C00D7D95A /* lfds611_abstraction_dcas.c in Sources */,
+				CAB551A9169A756C00D7D95A /* lfds611_abstraction_free.c in Sources */,
+				CAB551AA169A756C00D7D95A /* lfds611_abstraction_increment.c in Sources */,
+				CAB551AD169A756C00D7D95A /* lfds611_abstraction_malloc.c in Sources */,
+				CAB551AE169A756C00D7D95A /* lfds611_freelist_delete.c in Sources */,
+				CAB551AF169A756C00D7D95A /* lfds611_freelist_get_and_set.c in Sources */,
+				CAB551B1169A756C00D7D95A /* lfds611_freelist_new.c in Sources */,
+				CAB551B2169A756C00D7D95A /* lfds611_freelist_pop_push.c in Sources */,
+				CAB551B3169A756C00D7D95A /* lfds611_freelist_query.c in Sources */,
+				CAB551B4169A756C00D7D95A /* lfds611_liblfds_abstraction_test_helpers.c in Sources */,
+				CAB551B5169A756C00D7D95A /* lfds611_liblfds_aligned_free.c in Sources */,
+				CAB551B6169A756C00D7D95A /* lfds611_liblfds_aligned_malloc.c in Sources */,
+				CAB551B8169A756C00D7D95A /* lfds611_queue_delete.c in Sources */,
+				CAB551BA169A756C00D7D95A /* lfds611_queue_new.c in Sources */,
+				CAB551BB169A756C00D7D95A /* lfds611_queue_query.c in Sources */,
+				CAB551BC169A756C00D7D95A /* lfds611_queue_queue.c in Sources */,
+				CAB551BD169A756C00D7D95A /* lfds611_ringbuffer_delete.c in Sources */,
+				CAB551BE169A756C00D7D95A /* lfds611_ringbuffer_get_and_put.c in Sources */,
+				CAB551C0169A756C00D7D95A /* lfds611_ringbuffer_new.c in Sources */,
+				CAB551C1169A756C00D7D95A /* lfds611_ringbuffer_query.c in Sources */,
+				CAB551C2169A756C00D7D95A /* lfds611_slist_delete.c in Sources */,
+				CAB551C3169A756C00D7D95A /* lfds611_slist_get_and_set.c in Sources */,
+				CAB551C5169A756C00D7D95A /* lfds611_slist_link.c in Sources */,
+				CAB551C6169A756C00D7D95A /* lfds611_slist_new.c in Sources */,
+				CAB551C7169A756C00D7D95A /* lfds611_stack_delete.c in Sources */,
+				CAB551C9169A756C00D7D95A /* lfds611_stack_new.c in Sources */,
+				CAB551CA169A756C00D7D95A /* lfds611_stack_push_pop.c in Sources */,
+				CAB551CB169A756C00D7D95A /* lfds611_stack_query.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAB5516C169A74FF00D7D95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "$(SRCROOT)/../../../libs/";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAB5516D169A74FF00D7D95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = "$(SRCROOT)/../../../libs/";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAB5516F169A74FF00D7D95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAB55170169A74FF00D7D95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB55164169A74FF00D7D95A /* Build configuration list for PBXProject "lfds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB5516C169A74FF00D7D95A /* Debug */,
+				CAB5516D169A74FF00D7D95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB5516E169A74FF00D7D95A /* Build configuration list for PBXNativeTarget "lfds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB5516F169A74FF00D7D95A /* Debug */,
+				CAB55170169A74FF00D7D95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB55161169A74FF00D7D95A /* Project object */;
+}

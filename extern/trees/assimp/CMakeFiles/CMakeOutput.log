@@ -1,0 +1,329 @@
+The system is: Darwin - 12.2.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2190976061/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2190976061.dir/build.make CMakeFiles/cmTryCompileExec2190976061.dir/build
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_progress_report /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2190976061.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2190976061.dir/testCCompiler.c.o   -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2190976061
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2190976061.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2190976061.dir/testCCompiler.c.o  -o cmTryCompileExec2190976061  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2131767824/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2131767824.dir/build.make CMakeFiles/cmTryCompileExec2131767824.dir/build
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_progress_report /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2131767824
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2131767824.dir/link.txt --verbose=1
+/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2131767824   
+Using built-in specs.
+Target: i686-apple-darwin11
+Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.11~67/src/configure --disable-checking --enable-werror --prefix=/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.11~67/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1
+Thread model: posix
+gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.8.2 -weak_reference_mismatches non-weak -o cmTryCompileExec2131767824 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2131767824/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2131767824.dir/build.make CMakeFiles/cmTryCompileExec2131767824.dir/build]
+  ignore line: [/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_progress_report /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2131767824]
+  ignore line: [/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2131767824.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc      -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2131767824   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i686-apple-darwin11]
+  ignore line: [Configured with: /private/var/tmp/llvmgcc42/llvmgcc42-2336.11~67/src/configure --disable-checking --enable-werror --prefix=/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2 --mandir=/share/man --enable-languages=c,objc,c++,obj-c++ --program-prefix=llvm- --program-transform-name=/^[cg][^.-]*$/s/$/-4.2/ --with-slibdir=/usr/lib --build=i686-apple-darwin11 --enable-llvm=/private/var/tmp/llvmgcc42/llvmgcc42-2336.11~67/dst-llvmCore/Developer/usr/local --program-prefix=i686-apple-darwin11- --host=x86_64-apple-darwin11 --target=i686-apple-darwin11 --with-gxx-include-dir=/usr/include/c++/4.2.1]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+  link line: [ /usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2 -dynamic -arch x86_64 -macosx_version_min 10.8.2 -weak_reference_mismatches non-weak -o cmTryCompileExec2131767824 -lcrt1.10.6.o -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1 -L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../.. -L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o -lSystem -lgcc -lSystem]
+    arg [/usr/llvm-gcc-4.2/bin/../libexec/gcc/i686-apple-darwin11/4.2.1/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.8.2] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2131767824] ==> ignore
+    arg [-lcrt1.10.6.o] ==> lib [crt1.10.6.o]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc]
+    arg [-L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+    arg [-L/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-L/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2131767824.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+  remove lib [crt1.10.6.o]
+  remove lib [System]
+  remove lib [gcc]
+  remove lib [System]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64] ==> [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1] ==> [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc] ==> [/usr/llvm-gcc-4.2/lib/gcc]
+  collapse dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1] ==> [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1]
+  collapse dir [/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/usr/llvm-gcc-4.2/lib]
+  collapse dir [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/../../..] ==> [/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib]
+  implicit libs: []
+  implicit dirs: [/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/x86_64;/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib/gcc;/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1;/usr/llvm-gcc-4.2/lib;/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec125214992/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec125214992.dir/build.make CMakeFiles/cmTryCompileExec125214992.dir/build
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_progress_report /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec125214992.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec125214992.dir/testCXXCompiler.cxx.o -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec125214992
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec125214992.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec125214992.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec125214992  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2958781357/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2958781357.dir/build.make CMakeFiles/cmTryCompileExec2958781357.dir/build
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_progress_report /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2958781357
+/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2958781357.dir/link.txt --verbose=1
+/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2958781357   
+Apple clang version 4.1 (tags/Apple/clang-421.11.65) (based on LLVM 3.1svn)
+Target: x86_64-apple-darwin12.2.0
+Thread model: posix
+ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec2958781357 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2958781357/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2958781357.dir/build.make CMakeFiles/cmTryCompileExec2958781357.dir/build]
+  ignore line: [/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_progress_report /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2958781357]
+  ignore line: [/usr/local/Cellar/cmake/2.8.8/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2958781357.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2958781357   ]
+  ignore line: [Apple clang version 4.1 (tags/Apple/clang-421.11.65) (based on LLVM 3.1svn)]
+  ignore line: [Target: x86_64-apple-darwin12.2.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -o cmTryCompileExec2958781357 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lSystem /usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.8.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2958781357] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2958781357.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+  remove lib [System]
+  implicit libs: [stdc++;/usr/bin/../lib/clang/4.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: []
+
+
+The system is: Darwin - 12.2.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.8/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3767320878 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3767320878 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/DerivedSources/x86_64 -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/Objects-normal/x86_64/testCCompiler.dia -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/testCCompiler.c -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTryCompileExec3767320878 normal x86_64
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/Objects-normal/x86_64/cmTryCompileExec3767320878.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3767320878
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/Script-754678A5F6B74CE48FC4FE07.sh
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /bin/sh -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec3767320878.build/Script-754678A5F6B74CE48FC4FE07.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp && make -C /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp -f /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3767320878.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3767320878.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.8/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec393811834 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec393811834 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Objects-normal/x86_64/CMakeCCompilerABI.o ../../../../../../../../../../../../usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/DerivedSources/x86_64 -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/../../../../../../../../../../../../usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCCompilerABI.c -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec393811834 normal x86_64
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Objects-normal/x86_64/cmTryCompileExec393811834.LinkFileList -mmacosx-version-min=10.8 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec393811834
+Apple LLVM version 4.2 (clang-425.0.24) (based on LLVM 3.2svn)
+Target: x86_64-apple-darwin12.2.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec393811834 -L/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Objects-normal/x86_64/cmTryCompileExec393811834.LinkFileList -search_paths_first -headerpad_max_install_names -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Script-3130FAA95FB14FA4A37C3F28.sh
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /bin/sh -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec393811834.build/Script-3130FAA95FB14FA4A37C3F28.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp && make -C /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp -f /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec393811834.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec393811834.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.8/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2044959276 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2044959276 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/DerivedSources/x86_64 -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTryCompileExec2044959276 normal x86_64
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/Objects-normal/x86_64/cmTryCompileExec2044959276.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2044959276
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/Script-2FB9C50262264F7DA534526A.sh
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /bin/sh -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2044959276.build/Script-2FB9C50262264F7DA534526A.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp && make -C /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp -f /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2044959276.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2044959276.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/Cellar/cmake/2.8.8/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2830375900 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2830375900 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o ../../../../../../../../../../../../usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -Wno-sign-conversion -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/DerivedSources/x86_64 -I/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/../../../../../../../../../../../../usr/local/Cellar/cmake/2.8.8/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec2830375900 normal x86_64
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Objects-normal/x86_64/cmTryCompileExec2830375900.LinkFileList -mmacosx-version-min=10.8 -v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2830375900
+Apple LLVM version 4.2 (clang-425.0.24) (based on LLVM 3.2svn)
+Target: x86_64-apple-darwin12.2.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.8.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -o /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2830375900 -L/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug -filelist /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Objects-normal/x86_64/cmTryCompileExec2830375900.LinkFileList -search_paths_first -headerpad_max_install_names -lstdc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a -F/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Script-E9C6DF7247514058BFA78634.sh
+    cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp
+    /bin/sh -c /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2830375900.build/Script-E9C6DF7247514058BFA78634.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp && make -C /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp -f /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2830375900.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2830375900.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+

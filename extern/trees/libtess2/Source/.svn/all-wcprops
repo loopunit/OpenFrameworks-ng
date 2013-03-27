@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/8/trunk/Source
+END
+tess.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/6/trunk/Source/tess.c
+END
+mesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/8/trunk/Source/mesh.h
+END
+priorityq.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/8/trunk/Source/priorityq.c
+END
+sweep.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/7/trunk/Source/sweep.c
+END
+dict.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/8/trunk/Source/dict.c
+END
+tess.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/8/trunk/Source/tess.h
+END
+geom.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/Source/geom.c
+END
+priorityq.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/Source/priorityq.h
+END
+sweep.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/Source/sweep.h
+END
+dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/Source/dict.h
+END
+bucketalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/8/trunk/Source/bucketalloc.c
+END
+mesh.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/Source/mesh.c
+END
+geom.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/Source/geom.h
+END
+bucketalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/Source/bucketalloc.h
+END

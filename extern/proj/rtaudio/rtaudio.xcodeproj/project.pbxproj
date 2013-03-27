@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC9D22E16F8EB68004A69DA /* RtAudio.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAFDE7B216F8295200F82362 /* RtAudio.h */; };
+		CAC9D22F16F8EB68004A69DA /* RtError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAFDE7B316F8295200F82362 /* RtError.h */; };
+		CAFDE7C216F8295200F82362 /* RtAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAFDE7B116F8295200F82362 /* RtAudio.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAC9D22D16F8EAAC004A69DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = include;
+			dstSubfolderSpec = 0;
+			files = (
+				CAC9D22E16F8EB68004A69DA /* RtAudio.h in CopyFiles */,
+				CAC9D22F16F8EB68004A69DA /* RtError.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAFDE79B16F8292C00F82362 /* librtaudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librtaudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFDE7A316F8295200F82362 /* asio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asio.cpp; sourceTree = "<group>"; };
+		CAFDE7A416F8295200F82362 /* asio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asio.h; sourceTree = "<group>"; };
+		CAFDE7A516F8295200F82362 /* asiodrivers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asiodrivers.cpp; sourceTree = "<group>"; };
+		CAFDE7A616F8295200F82362 /* asiodrivers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asiodrivers.h; sourceTree = "<group>"; };
+		CAFDE7A716F8295200F82362 /* asiodrvr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asiodrvr.h; sourceTree = "<group>"; };
+		CAFDE7A816F8295200F82362 /* asiolist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asiolist.cpp; sourceTree = "<group>"; };
+		CAFDE7A916F8295200F82362 /* asiolist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asiolist.h; sourceTree = "<group>"; };
+		CAFDE7AA16F8295200F82362 /* asiosys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asiosys.h; sourceTree = "<group>"; };
+		CAFDE7AB16F8295200F82362 /* dsound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsound.h; sourceTree = "<group>"; };
+		CAFDE7AC16F8295200F82362 /* ginclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ginclude.h; sourceTree = "<group>"; };
+		CAFDE7AD16F8295200F82362 /* iasiodrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iasiodrv.h; sourceTree = "<group>"; };
+		CAFDE7AE16F8295200F82362 /* iasiothiscallresolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iasiothiscallresolver.cpp; sourceTree = "<group>"; };
+		CAFDE7AF16F8295200F82362 /* iasiothiscallresolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iasiothiscallresolver.h; sourceTree = "<group>"; };
+		CAFDE7B016F8295200F82362 /* soundcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundcard.h; sourceTree = "<group>"; };
+		CAFDE7B116F8295200F82362 /* RtAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RtAudio.cpp; path = ../../trees/rtaudio/RtAudio.cpp; sourceTree = "<group>"; };
+		CAFDE7B216F8295200F82362 /* RtAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RtAudio.h; path = ../../trees/rtaudio/RtAudio.h; sourceTree = "<group>"; };
+		CAFDE7B316F8295200F82362 /* RtError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RtError.h; path = ../../trees/rtaudio/RtError.h; sourceTree = "<group>"; };
+		CAFDE7D216F82BA400F82362 /* libfmodex_x86_64.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex_x86_64.dylib; path = /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/proj/openFrameworksTest/../../trees/fmod/lib/libfmodex_x86_64.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFDE79816F8292C00F82362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFDE79216F8292C00F82362 = {
+			isa = PBXGroup;
+			children = (
+				CAFDE7D216F82BA400F82362 /* libfmodex_x86_64.dylib */,
+				CAFDE7A216F8295200F82362 /* include */,
+				CAFDE7B116F8295200F82362 /* RtAudio.cpp */,
+				CAFDE7B216F8295200F82362 /* RtAudio.h */,
+				CAFDE7B316F8295200F82362 /* RtError.h */,
+				CAFDE79C16F8292C00F82362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFDE79C16F8292C00F82362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFDE79B16F8292C00F82362 /* librtaudio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFDE7A216F8295200F82362 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CAFDE7A316F8295200F82362 /* asio.cpp */,
+				CAFDE7A416F8295200F82362 /* asio.h */,
+				CAFDE7A516F8295200F82362 /* asiodrivers.cpp */,
+				CAFDE7A616F8295200F82362 /* asiodrivers.h */,
+				CAFDE7A716F8295200F82362 /* asiodrvr.h */,
+				CAFDE7A816F8295200F82362 /* asiolist.cpp */,
+				CAFDE7A916F8295200F82362 /* asiolist.h */,
+				CAFDE7AA16F8295200F82362 /* asiosys.h */,
+				CAFDE7AB16F8295200F82362 /* dsound.h */,
+				CAFDE7AC16F8295200F82362 /* ginclude.h */,
+				CAFDE7AD16F8295200F82362 /* iasiodrv.h */,
+				CAFDE7AE16F8295200F82362 /* iasiothiscallresolver.cpp */,
+				CAFDE7AF16F8295200F82362 /* iasiothiscallresolver.h */,
+				CAFDE7B016F8295200F82362 /* soundcard.h */,
+			);
+			name = include;
+			path = ../../trees/rtaudio/include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFDE79A16F8292C00F82362 /* rtaudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFDE79F16F8292C00F82362 /* Build configuration list for PBXNativeTarget "rtaudio" */;
+			buildPhases = (
+				CAFDE79716F8292C00F82362 /* Sources */,
+				CAFDE79816F8292C00F82362 /* Frameworks */,
+				CAC9D22D16F8EAAC004A69DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rtaudio;
+			productName = rtaudio;
+			productReference = CAFDE79B16F8292C00F82362 /* librtaudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFDE79316F8292C00F82362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Rausch";
+			};
+			buildConfigurationList = CAFDE79616F8292C00F82362 /* Build configuration list for PBXProject "rtaudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAFDE79216F8292C00F82362;
+			productRefGroup = CAFDE79C16F8292C00F82362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFDE79A16F8292C00F82362 /* rtaudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFDE79716F8292C00F82362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFDE7C216F8295200F82362 /* RtAudio.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAFDE79D16F8292C00F82362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "$(SRCROOT)/../../../libs/rtAudio";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAFDE79E16F8292C00F82362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = "$(SRCROOT)/../../../libs/rtAudio";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAFDE7A016F8292C00F82362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFDE7A116F8292C00F82362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFDE79616F8292C00F82362 /* Build configuration list for PBXProject "rtaudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFDE79D16F8292C00F82362 /* Debug */,
+				CAFDE79E16F8292C00F82362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFDE79F16F8292C00F82362 /* Build configuration list for PBXNativeTarget "rtaudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFDE7A016F8292C00F82362 /* Debug */,
+				CAFDE7A116F8292C00F82362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFDE79316F8292C00F82362 /* Project object */;
+}

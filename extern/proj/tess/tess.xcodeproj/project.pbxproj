@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB7F61316F5284200764084 /* bucketalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F60516F5284200764084 /* bucketalloc.c */; };
+		CAB7F61516F5284200764084 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F60716F5284200764084 /* dict.c */; };
+		CAB7F61716F5284200764084 /* geom.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F60916F5284200764084 /* geom.c */; };
+		CAB7F61916F5284200764084 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F60B16F5284200764084 /* mesh.c */; };
+		CAB7F61B16F5284200764084 /* priorityq.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F60D16F5284200764084 /* priorityq.c */; };
+		CAB7F61D16F5284200764084 /* sweep.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F60F16F5284200764084 /* sweep.c */; };
+		CAB7F61F16F5284200764084 /* tess.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB7F61116F5284200764084 /* tess.c */; };
+		CAC9D23116F8EFE3004A69DA /* tesselator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAB7F62116F5285C00764084 /* tesselator.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAC9D23016F8EFD2004A69DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = include;
+			dstSubfolderSpec = 0;
+			files = (
+				CAC9D23116F8EFE3004A69DA /* tesselator.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAB7F5FE16F527F900764084 /* libtess.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtess.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB7F60516F5284200764084 /* bucketalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bucketalloc.c; path = ../../trees/libtess2/Source/bucketalloc.c; sourceTree = "<group>"; };
+		CAB7F60616F5284200764084 /* bucketalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bucketalloc.h; path = ../../trees/libtess2/Source/bucketalloc.h; sourceTree = "<group>"; };
+		CAB7F60716F5284200764084 /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dict.c; path = ../../trees/libtess2/Source/dict.c; sourceTree = "<group>"; };
+		CAB7F60816F5284200764084 /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dict.h; path = ../../trees/libtess2/Source/dict.h; sourceTree = "<group>"; };
+		CAB7F60916F5284200764084 /* geom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = geom.c; path = ../../trees/libtess2/Source/geom.c; sourceTree = "<group>"; };
+		CAB7F60A16F5284200764084 /* geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geom.h; path = ../../trees/libtess2/Source/geom.h; sourceTree = "<group>"; };
+		CAB7F60B16F5284200764084 /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mesh.c; path = ../../trees/libtess2/Source/mesh.c; sourceTree = "<group>"; };
+		CAB7F60C16F5284200764084 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mesh.h; path = ../../trees/libtess2/Source/mesh.h; sourceTree = "<group>"; };
+		CAB7F60D16F5284200764084 /* priorityq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = priorityq.c; path = ../../trees/libtess2/Source/priorityq.c; sourceTree = "<group>"; };
+		CAB7F60E16F5284200764084 /* priorityq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = priorityq.h; path = ../../trees/libtess2/Source/priorityq.h; sourceTree = "<group>"; };
+		CAB7F60F16F5284200764084 /* sweep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sweep.c; path = ../../trees/libtess2/Source/sweep.c; sourceTree = "<group>"; };
+		CAB7F61016F5284200764084 /* sweep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sweep.h; path = ../../trees/libtess2/Source/sweep.h; sourceTree = "<group>"; };
+		CAB7F61116F5284200764084 /* tess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tess.c; path = ../../trees/libtess2/Source/tess.c; sourceTree = "<group>"; };
+		CAB7F61216F5284200764084 /* tess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tess.h; path = ../../trees/libtess2/Source/tess.h; sourceTree = "<group>"; };
+		CAB7F62116F5285C00764084 /* tesselator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tesselator.h; path = ../../trees/libtess2/Include/tesselator.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB7F5FB16F527F900764084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB7F5F516F527F900764084 = {
+			isa = PBXGroup;
+			children = (
+				CAB7F62116F5285C00764084 /* tesselator.h */,
+				CAB7F60516F5284200764084 /* bucketalloc.c */,
+				CAB7F60616F5284200764084 /* bucketalloc.h */,
+				CAB7F60716F5284200764084 /* dict.c */,
+				CAB7F60816F5284200764084 /* dict.h */,
+				CAB7F60916F5284200764084 /* geom.c */,
+				CAB7F60A16F5284200764084 /* geom.h */,
+				CAB7F60B16F5284200764084 /* mesh.c */,
+				CAB7F60C16F5284200764084 /* mesh.h */,
+				CAB7F60D16F5284200764084 /* priorityq.c */,
+				CAB7F60E16F5284200764084 /* priorityq.h */,
+				CAB7F60F16F5284200764084 /* sweep.c */,
+				CAB7F61016F5284200764084 /* sweep.h */,
+				CAB7F61116F5284200764084 /* tess.c */,
+				CAB7F61216F5284200764084 /* tess.h */,
+				CAB7F5FF16F527F900764084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB7F5FF16F527F900764084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7F5FE16F527F900764084 /* libtess.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB7F5FD16F527F900764084 /* tess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB7F60216F527F900764084 /* Build configuration list for PBXNativeTarget "tess" */;
+			buildPhases = (
+				CAB7F5FA16F527F900764084 /* Sources */,
+				CAB7F5FB16F527F900764084 /* Frameworks */,
+				CAC9D23016F8EFD2004A69DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tess;
+			productName = tess;
+			productReference = CAB7F5FE16F527F900764084 /* libtess.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB7F5F616F527F900764084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Rausch";
+			};
+			buildConfigurationList = CAB7F5F916F527F900764084 /* Build configuration list for PBXProject "tess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAB7F5F516F527F900764084;
+			productRefGroup = CAB7F5FF16F527F900764084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB7F5FD16F527F900764084 /* tess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB7F5FA16F527F900764084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB7F61316F5284200764084 /* bucketalloc.c in Sources */,
+				CAB7F61516F5284200764084 /* dict.c in Sources */,
+				CAB7F61716F5284200764084 /* geom.c in Sources */,
+				CAB7F61916F5284200764084 /* mesh.c in Sources */,
+				CAB7F61B16F5284200764084 /* priorityq.c in Sources */,
+				CAB7F61D16F5284200764084 /* sweep.c in Sources */,
+				CAB7F61F16F5284200764084 /* tess.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAB7F60016F527F900764084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "$(SRCROOT)/../../../libs/tess2";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		CAB7F60116F527F900764084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = "$(SRCROOT)/../../../libs/tess2";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+		CAB7F60316F527F900764084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAB7F60416F527F900764084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB7F5F916F527F900764084 /* Build configuration list for PBXProject "tess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB7F60016F527F900764084 /* Debug */,
+				CAB7F60116F527F900764084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB7F60216F527F900764084 /* Build configuration list for PBXNativeTarget "tess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB7F60316F527F900764084 /* Debug */,
+				CAB7F60416F527F900764084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB7F5F616F527F900764084 /* Project object */;
+}

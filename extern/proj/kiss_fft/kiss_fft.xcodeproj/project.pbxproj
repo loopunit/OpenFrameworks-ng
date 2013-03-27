@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC9D22B16F8E64A004A69DA /* kiss_fft.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAFDE76916F7A79A00F82362 /* kiss_fft.h */; };
+		CAC9D22C16F8E64A004A69DA /* kiss_fftr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAFDE76A16F7A79A00F82362 /* kiss_fftr.h */; };
+		CAFDE77216F7A79A00F82362 /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFDE76D16F7A79A00F82362 /* kiss_fft.c */; };
+		CAFDE77316F7A79A00F82362 /* kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFDE76E16F7A79A00F82362 /* kiss_fftr.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAC9D22A16F8E62F004A69DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = include;
+			dstSubfolderSpec = 0;
+			files = (
+				CAC9D22B16F8E64A004A69DA /* kiss_fft.h in CopyFiles */,
+				CAC9D22C16F8E64A004A69DA /* kiss_fftr.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAFDE74D16F7A68600F82362 /* libkiss_fft.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkiss_fft.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFDE76916F7A79A00F82362 /* kiss_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fft.h; sourceTree = "<group>"; };
+		CAFDE76A16F7A79A00F82362 /* kiss_fftr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fftr.h; sourceTree = "<group>"; };
+		CAFDE76C16F7A79A00F82362 /* _kiss_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _kiss_fft_guts.h; sourceTree = "<group>"; };
+		CAFDE76D16F7A79A00F82362 /* kiss_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fft.c; sourceTree = "<group>"; };
+		CAFDE76E16F7A79A00F82362 /* kiss_fftr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fftr.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFDE74A16F7A68600F82362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFDE74416F7A68600F82362 = {
+			isa = PBXGroup;
+			children = (
+				CAFDE76816F7A79A00F82362 /* include */,
+				CAFDE76B16F7A79A00F82362 /* src */,
+				CAFDE74E16F7A68600F82362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFDE74E16F7A68600F82362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFDE74D16F7A68600F82362 /* libkiss_fft.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFDE76816F7A79A00F82362 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CAFDE76916F7A79A00F82362 /* kiss_fft.h */,
+				CAFDE76A16F7A79A00F82362 /* kiss_fftr.h */,
+			);
+			name = include;
+			path = ../../trees/kiss_fft/include;
+			sourceTree = "<group>";
+		};
+		CAFDE76B16F7A79A00F82362 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CAFDE76C16F7A79A00F82362 /* _kiss_fft_guts.h */,
+				CAFDE76D16F7A79A00F82362 /* kiss_fft.c */,
+				CAFDE76E16F7A79A00F82362 /* kiss_fftr.c */,
+			);
+			name = src;
+			path = ../../trees/kiss_fft/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFDE74C16F7A68600F82362 /* kiss_fft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFDE75116F7A68600F82362 /* Build configuration list for PBXNativeTarget "kiss_fft" */;
+			buildPhases = (
+				CAFDE74916F7A68600F82362 /* Sources */,
+				CAFDE74A16F7A68600F82362 /* Frameworks */,
+				CAC9D22A16F8E62F004A69DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kiss_fft;
+			productName = kiss_fft;
+			productReference = CAFDE74D16F7A68600F82362 /* libkiss_fft.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFDE74516F7A68600F82362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan Rausch";
+			};
+			buildConfigurationList = CAFDE74816F7A68600F82362 /* Build configuration list for PBXProject "kiss_fft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAFDE74416F7A68600F82362;
+			productRefGroup = CAFDE74E16F7A68600F82362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFDE74C16F7A68600F82362 /* kiss_fft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFDE74916F7A68600F82362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFDE77216F7A79A00F82362 /* kiss_fft.c in Sources */,
+				CAFDE77316F7A79A00F82362 /* kiss_fftr.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAFDE74F16F7A68600F82362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "$(SRCROOT)/../../../libs/kiss";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAFDE75016F7A68600F82362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "$(SRCROOT)/../../../libs/kiss";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /lib/osx64;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAFDE75216F7A68600F82362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../trees/openframeworks/libs/kiss/lib/linux\"",
+					"\"$(SRCROOT)/../../trees/openframeworks/libs/kiss/lib/linux64\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFDE75316F7A68600F82362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../trees/openframeworks/libs/kiss/lib/linux\"",
+					"\"$(SRCROOT)/../../trees/openframeworks/libs/kiss/lib/linux64\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFDE74816F7A68600F82362 /* Build configuration list for PBXProject "kiss_fft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFDE74F16F7A68600F82362 /* Debug */,
+				CAFDE75016F7A68600F82362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFDE75116F7A68600F82362 /* Build configuration list for PBXNativeTarget "kiss_fft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFDE75216F7A68600F82362 /* Debug */,
+				CAFDE75316F7A68600F82362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFDE74516F7A68600F82362 /* Project object */;
+}
