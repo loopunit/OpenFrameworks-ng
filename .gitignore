@@ -11,3 +11,5 @@
 *.la
 *.xcuserstate
 *.xcuserdatad
+.deps
+.dep
