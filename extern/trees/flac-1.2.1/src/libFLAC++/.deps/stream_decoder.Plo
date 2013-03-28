@@ -1,0 +1,160 @@
+stream_decoder.lo: stream_decoder.cpp ../../include/FLAC++/decoder.h \
+  ../../include/FLAC++/export.h /usr/bin/../lib/c++/v1/string \
+  /usr/bin/../lib/c++/v1/__config /usr/bin/../lib/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/AvailabilityInternal.h \
+  /usr/bin/../lib/clang/4.2/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/time.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/ctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/runetype.h \
+  /usr/bin/../lib/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/strings.h \
+  /usr/bin/../lib/c++/v1/cstdio /usr/bin/../lib/c++/v1/cwchar \
+  /usr/bin/../lib/c++/v1/cwctype /usr/bin/../lib/c++/v1/cctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/wctype.h \
+  /usr/bin/../lib/c++/v1/algorithm \
+  /usr/bin/../lib/c++/v1/initializer_list /usr/bin/../lib/c++/v1/cstddef \
+  /usr/bin/../lib/clang/4.2/include/stddef.h \
+  /usr/bin/../lib/c++/v1/type_traits /usr/bin/../lib/c++/v1/utility \
+  /usr/bin/../lib/c++/v1/__tuple /usr/bin/../lib/c++/v1/memory \
+  /usr/bin/../lib/c++/v1/typeinfo /usr/bin/../lib/c++/v1/exception \
+  /usr/bin/../lib/c++/v1/cstdint \
+  /usr/bin/../lib/clang/4.2/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdint.h \
+  /usr/bin/../lib/c++/v1/new /usr/bin/../lib/c++/v1/limits \
+  /usr/bin/../lib/c++/v1/__undef_min_max /usr/bin/../lib/c++/v1/iterator \
+  /usr/bin/../lib/c++/v1/__functional_base /usr/bin/../lib/c++/v1/tuple \
+  /usr/bin/../lib/c++/v1/atomic /usr/bin/../lib/c++/v1/stdexcept \
+  ../../include/FLAC/stream_decoder.h ../../include/FLAC/export.h \
+  ../../include/FLAC/format.h ../../include/FLAC/ordinals.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/inttypes.h \
+  ../../include/FLAC/assert.h
+
+../../include/FLAC++/decoder.h:
+
+../../include/FLAC++/export.h:
+
+/usr/bin/../lib/c++/v1/string:
+
+/usr/bin/../lib/c++/v1/__config:
+
+/usr/bin/../lib/c++/v1/iosfwd:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/wchar.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/cdefs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_posix_availability.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/machine/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/i386/_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/Availability.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/AvailabilityInternal.h:
+
+/usr/bin/../lib/clang/4.2/include/stdarg.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/time.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/_structs.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/_wctype.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/ctype.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/runetype.h:
+
+/usr/bin/../lib/c++/v1/cstring:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/strings.h:
+
+/usr/bin/../lib/c++/v1/cstdio:
+
+/usr/bin/../lib/c++/v1/cwchar:
+
+/usr/bin/../lib/c++/v1/cwctype:
+
+/usr/bin/../lib/c++/v1/cctype:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/wctype.h:
+
+/usr/bin/../lib/c++/v1/algorithm:
+
+/usr/bin/../lib/c++/v1/initializer_list:
+
+/usr/bin/../lib/c++/v1/cstddef:
+
+/usr/bin/../lib/clang/4.2/include/stddef.h:
+
+/usr/bin/../lib/c++/v1/type_traits:
+
+/usr/bin/../lib/c++/v1/utility:
+
+/usr/bin/../lib/c++/v1/__tuple:
+
+/usr/bin/../lib/c++/v1/memory:
+
+/usr/bin/../lib/c++/v1/typeinfo:
+
+/usr/bin/../lib/c++/v1/exception:
+
+/usr/bin/../lib/c++/v1/cstdint:
+
+/usr/bin/../lib/clang/4.2/include/stdint.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdint.h:
+
+/usr/bin/../lib/c++/v1/new:
+
+/usr/bin/../lib/c++/v1/limits:
+
+/usr/bin/../lib/c++/v1/__undef_min_max:
+
+/usr/bin/../lib/c++/v1/iterator:
+
+/usr/bin/../lib/c++/v1/__functional_base:
+
+/usr/bin/../lib/c++/v1/tuple:
+
+/usr/bin/../lib/c++/v1/atomic:
+
+/usr/bin/../lib/c++/v1/stdexcept:
+
+../../include/FLAC/stream_decoder.h:
+
+../../include/FLAC/export.h:
+
+../../include/FLAC/format.h:
+
+../../include/FLAC/ordinals.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/inttypes.h:
+
+../../include/FLAC/assert.h:
