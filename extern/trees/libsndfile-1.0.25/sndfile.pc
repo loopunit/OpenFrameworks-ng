@@ -1,0 +1,12 @@
+prefix=/Users/krysmopompas/gtk/inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: sndfile
+Description: A library for reading and writing audio files
+Requires: 
+Version: 1.0.25
+Libs: -L${libdir} -lsndfile
+Libs.private: -L/Users/krysmopompas/gtk/inst/lib -lFLAC -lm   -L/Users/krysmopompas/gtk/inst/lib -lvorbisenc -lvorbis -lm -logg   
+Cflags: -I${includedir} 
