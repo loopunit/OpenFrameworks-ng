@@ -5,6 +5,7 @@
 #include "ofBaseTypes.h"
 #include "ofTypes.h"
 
+#if 0
 #ifdef OF_VIDEO_PLAYER_GSTREAMER
 	#include "ofGstVideoPlayer.h"
 	#define OF_VID_PLAYER_TYPE ofGstVideoPlayer
@@ -24,6 +25,10 @@
 	#include "ofiPhoneVideoPlayer.h"
 	#define OF_VID_PLAYER_TYPE ofiPhoneVideoPlayer
 #endif
+#endif
+
+#include "ofAVFoundationVideoPlayer.h"
+#define OF_VID_PLAYER_TYPE ofAVFoundationVideoPlayer
 
 //---------------------------------------------
 class ofVideoPlayer : public ofBaseVideoPlayer,public ofBaseVideoDraws{
