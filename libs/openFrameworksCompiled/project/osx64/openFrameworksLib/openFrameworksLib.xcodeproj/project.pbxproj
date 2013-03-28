@@ -18,6 +18,18 @@
 		CA61BBEE16F8FF8A00155846 /* libtess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BBED16F8FF8A00155846 /* libtess.a */; };
 		CA61BC0216F9056100155846 /* libpixman-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA61BC0116F9056100155846 /* libpixman-1.a */; };
 		CA9B06BE16FC278C006E8AD3 /* libPocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */; };
+		CAC3C71B1703AE800062BF8A /* ofVideoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D19916F8C319004A69DA /* ofVideoPlayer.cpp */; };
+		CAC3C71E1703AFE10062BF8A /* ofQtUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D19116F8C319004A69DA /* ofQtUtils.cpp */; };
+		CAC3C7261703B2310062BF8A /* AVFoundationVideoGrabber.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C7231703B2310062BF8A /* AVFoundationVideoGrabber.mm */; };
+		CAC3C7271703B2310062BF8A /* AVFoundationVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C7251703B2310062BF8A /* AVFoundationVideoPlayer.m */; };
+		CAC3C72E1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C72B1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm */; };
+		CAC3C72F1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = CAC3C72D1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm */; };
+		CAC3C7331704C7350062BF8A /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7321704C7350062BF8A /* libsndfile.a */; };
+		CAC3C7351704C8040062BF8A /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7341704C8030062BF8A /* libFLAC.a */; };
+		CAC3C7371704C8B00062BF8A /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7361704C8B00062BF8A /* libogg.a */; };
+		CAC3C73B1704CA2F0062BF8A /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7381704CA2F0062BF8A /* libvorbis.a */; };
+		CAC3C73C1704CA2F0062BF8A /* libvorbisenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C7391704CA2F0062BF8A /* libvorbisenc.a */; };
+		CAC3C73D1704CA2F0062BF8A /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3C73A1704CA2F0062BF8A /* libvorbisfile.a */; };
 		CAC9D19B16F8C319004A69DA /* of3dUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10816F8C318004A69DA /* of3dUtils.cpp */; };
 		CAC9D19D16F8C319004A69DA /* ofCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10A16F8C318004A69DA /* ofCamera.cpp */; };
 		CAC9D19F16F8C319004A69DA /* ofEasyCam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D10C16F8C318004A69DA /* ofEasyCam.cpp */; };
@@ -83,6 +95,20 @@
 		CA61BBED16F8FF8A00155846 /* libtess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtess.a; path = ../../../../tess2/lib/osx64/libtess.a; sourceTree = "<group>"; };
 		CA61BC0116F9056100155846 /* libpixman-1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpixman-1.a"; path = "../../../../cairo/lib/osx64/libpixman-1.a"; sourceTree = "<group>"; };
 		CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoXML.a; path = ../../../../poco/lib/osx64/libPocoXML.a; sourceTree = "<group>"; };
+		CAC3C7221703B2310062BF8A /* AVFoundationVideoGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationVideoGrabber.h; sourceTree = "<group>"; };
+		CAC3C7231703B2310062BF8A /* AVFoundationVideoGrabber.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AVFoundationVideoGrabber.mm; sourceTree = "<group>"; };
+		CAC3C7241703B2310062BF8A /* AVFoundationVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFoundationVideoPlayer.h; sourceTree = "<group>"; };
+		CAC3C7251703B2310062BF8A /* AVFoundationVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFoundationVideoPlayer.m; sourceTree = "<group>"; };
+		CAC3C72A1703D27C0062BF8A /* ofAVFoundationVideoGrabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAVFoundationVideoGrabber.h; sourceTree = "<group>"; };
+		CAC3C72B1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofAVFoundationVideoGrabber.mm; sourceTree = "<group>"; };
+		CAC3C72C1703D27D0062BF8A /* ofAVFoundationVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofAVFoundationVideoPlayer.h; sourceTree = "<group>"; };
+		CAC3C72D1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofAVFoundationVideoPlayer.mm; sourceTree = "<group>"; };
+		CAC3C7321704C7350062BF8A /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsndfile.a; path = ../../../../sndfile/lib/osx64/libsndfile.a; sourceTree = "<group>"; };
+		CAC3C7341704C8030062BF8A /* libFLAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFLAC.a; path = ../../../../flac/lib/osx64/libFLAC.a; sourceTree = "<group>"; };
+		CAC3C7361704C8B00062BF8A /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = ../../../../ogg/lib/osx64/libogg.a; sourceTree = "<group>"; };
+		CAC3C7381704CA2F0062BF8A /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = ../../../../vorbis/lib/osx64/libvorbis.a; sourceTree = "<group>"; };
+		CAC3C7391704CA2F0062BF8A /* libvorbisenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisenc.a; path = ../../../../vorbis/lib/osx64/libvorbisenc.a; sourceTree = "<group>"; };
+		CAC3C73A1704CA2F0062BF8A /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = ../../../../vorbis/lib/osx64/libvorbisfile.a; sourceTree = "<group>"; };
 		CAC9D10016F8C16C004A69DA /* openFrameworksLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = openFrameworksLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC9D10816F8C318004A69DA /* of3dUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = of3dUtils.cpp; sourceTree = "<group>"; };
 		CAC9D10916F8C318004A69DA /* of3dUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = of3dUtils.h; sourceTree = "<group>"; };
@@ -239,6 +265,12 @@
 				CA61BBEC16F8FF7C00155846 /* libkiss_fft.a in Frameworks */,
 				CA61BBEE16F8FF8A00155846 /* libtess.a in Frameworks */,
 				CA9B06BE16FC278C006E8AD3 /* libPocoXML.a in Frameworks */,
+				CAC3C7331704C7350062BF8A /* libsndfile.a in Frameworks */,
+				CAC3C7351704C8040062BF8A /* libFLAC.a in Frameworks */,
+				CAC3C7371704C8B00062BF8A /* libogg.a in Frameworks */,
+				CAC3C73B1704CA2F0062BF8A /* libvorbis.a in Frameworks */,
+				CAC3C73C1704CA2F0062BF8A /* libvorbisenc.a in Frameworks */,
+				CAC3C73D1704CA2F0062BF8A /* libvorbisfile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +280,12 @@
 		CAC9D0F716F8C16C004A69DA = {
 			isa = PBXGroup;
 			children = (
+				CAC3C7381704CA2F0062BF8A /* libvorbis.a */,
+				CAC3C7391704CA2F0062BF8A /* libvorbisenc.a */,
+				CAC3C73A1704CA2F0062BF8A /* libvorbisfile.a */,
+				CAC3C7341704C8030062BF8A /* libFLAC.a */,
+				CAC3C7361704C8B00062BF8A /* libogg.a */,
+				CAC3C7321704C7350062BF8A /* libsndfile.a */,
 				CA9B06BD16FC278C006E8AD3 /* libPocoXML.a */,
 				CA61BC0116F9056100155846 /* libpixman-1.a */,
 				CA61BBDF16F8FF3B00155846 /* libfreeimage.a */,
@@ -466,6 +504,14 @@
 		CAC9D18216F8C319004A69DA /* video */ = {
 			isa = PBXGroup;
 			children = (
+				CAC3C72A1703D27C0062BF8A /* ofAVFoundationVideoGrabber.h */,
+				CAC3C72B1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm */,
+				CAC3C72C1703D27D0062BF8A /* ofAVFoundationVideoPlayer.h */,
+				CAC3C72D1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm */,
+				CAC3C7221703B2310062BF8A /* AVFoundationVideoGrabber.h */,
+				CAC3C7231703B2310062BF8A /* AVFoundationVideoGrabber.mm */,
+				CAC3C7241703B2310062BF8A /* AVFoundationVideoPlayer.h */,
+				CAC3C7251703B2310062BF8A /* AVFoundationVideoPlayer.m */,
 				CAC9D18316F8C319004A69DA /* ofDirectShowGrabber.cpp */,
 				CAC9D18416F8C319004A69DA /* ofDirectShowGrabber.h */,
 				CAC9D18516F8C319004A69DA /* ofGstUtils.cpp */,
@@ -616,6 +662,12 @@
 				CAC9D20616F8C319004A69DA /* ofThread.cpp in Sources */,
 				CAC9D20816F8C319004A69DA /* ofURLFileLoader.cpp in Sources */,
 				CAC9D20A16F8C319004A69DA /* ofUtils.cpp in Sources */,
+				CAC3C71B1703AE800062BF8A /* ofVideoPlayer.cpp in Sources */,
+				CAC3C71E1703AFE10062BF8A /* ofQtUtils.cpp in Sources */,
+				CAC3C7261703B2310062BF8A /* AVFoundationVideoGrabber.mm in Sources */,
+				CAC3C7271703B2310062BF8A /* AVFoundationVideoPlayer.m in Sources */,
+				CAC3C72E1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm in Sources */,
+				CAC3C72F1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +765,10 @@
 					"\"$(SRCROOT)/../../../../rtAudio/lib/osx64\"",
 					"\"$(SRCROOT)/../../../../kiss/lib/osx64\"",
 					"\"$(SRCROOT)/../../../../tess2/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../sndfile/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../flac/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../ogg/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../vorbis/lib/osx64\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -732,6 +788,10 @@
 					"\"$(SRCROOT)/../../../../rtAudio/lib/osx64\"",
 					"\"$(SRCROOT)/../../../../kiss/lib/osx64\"",
 					"\"$(SRCROOT)/../../../../tess2/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../sndfile/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../flac/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../ogg/lib/osx64\"",
+					"\"$(SRCROOT)/../../../../vorbis/lib/osx64\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
