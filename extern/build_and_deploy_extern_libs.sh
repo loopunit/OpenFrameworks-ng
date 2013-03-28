@@ -20,32 +20,45 @@ cd proj/tess
 xcodebuild install
 cd ../..
 
+
+cp ~/gtk/inst/include/sndfile.* ../libs/sndfile/include
+cp ~/gtk/inst/lib/libsndfile*.a ../libs/sndfile/lib/osx64
+
+cp -R ~/gtk/inst/include/FLAC ../libs/flac/include/
+cp -R ~/gtk/inst/include/FLAC++ ../libs/flac/include/
+cp ~/gtk/inst/lib/libFLAC*.a ../libs/flac/lib/osx64
+
+cp -R ~/gtk/inst/include/ogg ../libs/ogg/include/
+cp ~/gtk/inst/lib/libogg*.a ../libs/ogg/lib/osx64
+
+cp -R ~/gtk/inst/include/vorbis ../libs/vorbis/include/
+cp ~/gtk/inst/lib/libvorbis*.a ../libs/vorbis/lib/osx64
+
+cp ~/gtk/inst/include/sqlite*.* ../libs/sqlite/include
+cp ~/gtk/inst/lib/libsqlite*.a ../libs/sqlite/lib/osx64
+
 # Copying cairo
-#cp trees/gtk/include/cairo/*.* trees/openframeworks/libs/cairo/include/
-#cp trees/gtk/lib/libcairo*.a trees/openframeworks/libs/cairo/lib/osx64
-#cp trees/gtk/lib/*pixman*.a trees/openframeworks/libs/cairo/lib/osx64
+cp ~/gtk/inst/include/cairo/*.* ../libs/cairo/include/
+cp ~/gtk/inst/lib/libcairo*.a ../libs/cairo/lib/osx64
+cp ~/gtk/inst/lib/*pixman*.a ../libs/cairo/lib/osx64
 
 # freetype 2
-#cp trees/gtk/include/ft2build.h trees/openframeworks/libs/freetype/include/
-#cp -R trees/gtk/include/freetype2/freetype trees/openframeworks/libs/freetype/include/
-#cp trees/gtk/lib/libfreetype*.a trees/openframeworks/libs/freetype/lib/osx64
-
-# freeimage
-#cp trees/FreeImage/libfreeimage.a trees/openframeworks/libs/FreeImage/lib/osx64
-#cp trees/FreeImage/Source/FreeImage.h trees/openframeworks/libs/FreeImage/include
+cp ~/gtk/inst/include/ft2build.h ../libs/freetype/include/
+cp -R ~/gtk/inst/include/freetype2/freetype ../libs/freetype/include/
+cp ~/gtk/inst/lib/libfreetype*.a ../libs/freetype/lib/osx64
 
 # poco
-#cp -R trees/poco/Foundation/include/Poco trees/openframeworks/libs/poco/include
-#cp -R trees/poco/Util/include/Poco trees/openframeworks/libs/poco/include
-#cp -R trees/poco/Net/include/Poco trees/openframeworks/libs/poco/include
+cp -R trees/poco/Foundation/include/Poco ../libs/poco/include
+cp -R trees/poco/Util/include/Poco ../libs/poco/include
+cp -R trees/poco/Net/include/Poco ../libs/poco/include
 
-#cp trees/poco/lib/Darwin/x86_64/libPocoFoundation.a trees/openframeworks/libs/poco/lib/osx64
-#cp trees/poco/lib/Darwin/x86_64/libPocoNet.a trees/openframeworks/libs/poco/lib/osx64
-#cp trees/poco/lib/Darwin/x86_64/libPocoUtil.a trees/openframeworks/libs/poco/lib/osx64
+cp trees/poco/lib/Darwin/x86_64/libPocoFoundation.a ../libs/poco/lib/osx64
+cp trees/poco/lib/Darwin/x86_64/libPocoNet.a ../libs/poco/lib/osx64
+cp trees/poco/lib/Darwin/x86_64/libPocoUtil.a ../libs/poco/lib/osx64
 
 #fmod
-#hdiutil attach -mountpoint ./fmod trees/fmodapi44410mac-installer.dmg
-#cp fmod/FMOD\ Programmers\ API/api/inc/*.h trees/openframeworks/libs/fmodex/include/
-#cp fmod/FMOD\ Programmers\ API/api/lib/libfmodex.dylib trees/openframeworks/libs/fmodex/lib/osx64
-#hdiutil detach fmod
+hdiutil attach -mountpoint ./fmod trees/fmodapi44410mac-installer.dmg
+cp fmod/FMOD\ Programmers\ API/api/inc/*.h ../libs/fmodex/include/
+cp fmod/FMOD\ Programmers\ API/api/lib/libfmodex.dylib ../libs/fmodex/lib/osx64
+hdiutil detach fmod
 
