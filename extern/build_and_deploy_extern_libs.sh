@@ -2,22 +2,27 @@
 
 cd proj/assimp
 xcodebuild install
+xcodebuild clean
 cd ../..
 
 cd proj/freeimage
 xcodebuild install
+xcodebuild clean
 cd ../..
 
 cd proj/kiss_fft
 xcodebuild install
+xcodebuild clean
 cd ../..
 
 cd proj/rtaudio
 xcodebuild install
+xcodebuild clean
 cd ../..
 
 cd proj/tess
 xcodebuild install
+xcodebuild clean
 cd ../..
 
 
@@ -48,13 +53,8 @@ cp -R ~/gtk/inst/include/freetype2/freetype ../libs/freetype/include/
 cp ~/gtk/inst/lib/libfreetype*.a ../libs/freetype/lib/osx64
 
 # poco
-cp -R trees/poco/Foundation/include/Poco ../libs/poco/include
-cp -R trees/poco/Util/include/Poco ../libs/poco/include
-cp -R trees/poco/Net/include/Poco ../libs/poco/include
-
-cp trees/poco/lib/Darwin/x86_64/libPocoFoundation.a ../libs/poco/lib/osx64
-cp trees/poco/lib/Darwin/x86_64/libPocoNet.a ../libs/poco/lib/osx64
-cp trees/poco/lib/Darwin/x86_64/libPocoUtil.a ../libs/poco/lib/osx64
+cp -R ~/gtk/inst/include/Poco ../libs/poco/include
+cp ~/gtk/inst/libPoco*.a ../libs/poco/lib/osx64
 
 #fmod
 hdiutil attach -mountpoint ./fmod trees/fmodapi44410mac-installer.dmg

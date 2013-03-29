@@ -13,3 +13,4 @@
 *.xcuserdatad
 .deps
 .dep
+extern/trees/poco
