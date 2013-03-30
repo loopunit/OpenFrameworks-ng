@@ -1,5 +1,8 @@
 #pragma once
 
+//#define OF_SOUND_PLAYER_FMOD 1
+#define OF_SOUND_PLAYER_OPENAL 1
+
 //-------------------------------
 #define OF_VERSION_MAJOR 0
 #define OF_VERSION_MINOR 7
@@ -274,8 +277,6 @@ typedef TESSindex ofIndexType;
 		#define OF_SOUNDSTREAM_IPHONE
 	#endif
 #endif
-
-#define OF_SOUND_PLAYER_FMOD 1
 
 //------------------------------------------------ soundplayer
 // check if any soundplayer api is defined from the compiler

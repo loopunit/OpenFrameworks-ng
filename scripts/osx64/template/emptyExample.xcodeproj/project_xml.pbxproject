@@ -25,9 +25,6 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>CA6B2DE316FF9B5100661AD9</string>
-				<string>CA6B2DE016FF9B3F00661AD9</string>
-				<string>CA6B2DDD16FF9B3A00661AD9</string>
 				<string>CA61BC3716F9133400155846</string>
 				<string>CA61BD0016F942A700155846</string>
 				<string>CA61BC5B16F918DE00155846</string>
@@ -120,6 +117,9 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
+				<string>CADDDC3717075C1C00753481</string>
+				<string>CADDDC3517075C1400753481</string>
+				<string>CADDDC3217075BFE00753481</string>
 				<string>CA6B2DE416FF9B5100661AD9</string>
 				<string>CA6B2DE216FF9B4700661AD9</string>
 				<string>CA6B2DE116FF9B3F00661AD9</string>
@@ -206,6 +206,12 @@
 			<array>
 				<string>CA61BCF816F93C7000155846</string>
 				<string>CA61BC4516F913E000155846</string>
+				<string>CADDDC3617075C1C00753481</string>
+				<string>CADDDC3417075C1400753481</string>
+				<string>CADDDC3117075BFE00753481</string>
+				<string>CA6B2DE316FF9B5100661AD9</string>
+				<string>CA6B2DE016FF9B3F00661AD9</string>
+				<string>CA6B2DDD16FF9B3A00661AD9</string>
 				<string>CA61BC1C16F9129000155846</string>
 				<string>CA6B2DD316FF94FA00661AD9</string>
 				<string>CA61BC1D16F9129000155846</string>
@@ -311,11 +317,8 @@
 				<string>YES</string>
 				<key>HEADER_SEARCH_PATHS</key>
 				<array>
-					<string>"$(OF_PATH)/libs/openFrameworks"/**</string>
-					<string>"$(OF_PATH)/libs/tess2/include"</string>
-					<string>"$(OF_PATH)/libs/fmodex/include"</string>
-					<string>"$(OF_PATH)/libs/cairo/include"</string>
-					<string>"$(OF_PATH)/libs/poco/include"</string>
+					<string>$(OF_CORE_INCLUDES)</string>
+					<string>$(OF_OTHER_INCLUDES)</string>
 				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<string>"$(OF_PATH)/libs/fmodex/lib/osx64"</string>
@@ -378,11 +381,8 @@
 				<string>YES</string>
 				<key>HEADER_SEARCH_PATHS</key>
 				<array>
-					<string>"$(OF_PATH)/libs/openFrameworks"/**</string>
-					<string>"$(OF_PATH)/libs/tess2/include"</string>
-					<string>"$(OF_PATH)/libs/fmodex/include"</string>
-					<string>"$(OF_PATH)/libs/cairo/include"</string>
-					<string>"$(OF_PATH)/libs/poco/include"</string>
+					<string>$(OF_CORE_INCLUDES)</string>
+					<string>$(OF_OTHER_INCLUDES)</string>
 				</array>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<string>"$(OF_PATH)/libs/fmodex/lib/osx64"</string>
@@ -829,6 +829,66 @@ install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$T
 		<dict>
 			<key>fileRef</key>
 			<string>CA6B2DE316FF9B5100661AD9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CADDDC3117075BFE00753481</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>OpenAL.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/OpenAL.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CADDDC3217075BFE00753481</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CADDDC3117075BFE00753481</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CADDDC3417075C1400753481</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreMedia.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreMedia.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CADDDC3517075C1400753481</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CADDDC3417075C1400753481</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CADDDC3617075C1C00753481</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AVFoundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>CADDDC3717075C1C00753481</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CADDDC3617075C1C00753481</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>

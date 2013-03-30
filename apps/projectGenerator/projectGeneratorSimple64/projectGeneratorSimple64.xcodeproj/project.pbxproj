@@ -38,6 +38,7 @@
 		CA61BCF216F93A6F00155846 /* Inconsolata.otf in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BCDD16F939AD00155846 /* Inconsolata.otf */; };
 		CA61BCF416F93A8200155846 /* ofw-logo.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BCDF16F939AD00155846 /* ofw-logo.png */; };
 		CA61BCF616F93A9700155846 /* projectGeneratorSettings.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA61BCE116F939AD00155846 /* projectGeneratorSettings.xml */; };
+		CADDDC3B17075E2D00753481 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADDDC3A17075E2D00753481 /* OpenAL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,7 @@
 		CA61BCE116F939AD00155846 /* projectGeneratorSettings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = projectGeneratorSettings.xml; sourceTree = "<group>"; };
 		CA61BCE216F939AD00155846 /* readMe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = readMe.html; path = bin/readMe.html; sourceTree = "<group>"; };
 		CA61BCE316F939AE00155846 /* readMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readMe.md; path = bin/readMe.md; sourceTree = "<group>"; };
+		CADDDC3A17075E2D00753481 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADDDC3B17075E2D00753481 /* OpenAL.framework in Frameworks */,
 				CA61BCAC16F91FC000155846 /* libc++.1.dylib in Frameworks */,
 				CA61BC5216F9171E00155846 /* OpenGL.framework in Frameworks */,
 				CA61BC5116F9170400155846 /* GLUT.framework in Frameworks */,
@@ -204,11 +207,12 @@
 		CA61BC1816F9129000155846 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CA61BCAB16F91FC000155846 /* libc++.1.dylib */,
 				CA61BC4516F913E000155846 /* libbz2.dylib */,
+				CA61BCAB16F91FC000155846 /* libc++.1.dylib */,
 				CA61BC4716F913E000155846 /* libfmodex.dylib */,
 				CA61BC4B16F913EC00155846 /* Cocoa.framework */,
 				CA61BC4C16F913EC00155846 /* GLUT.framework */,
+				CADDDC3A17075E2D00753481 /* OpenAL.framework */,
 				CA61BC4D16F913EC00155846 /* OpenGL.framework */,
 				CA61BC1B16F9129000155846 /* Other Frameworks */,
 			);
@@ -573,6 +577,8 @@
 					../../../libs/fmodex/include,
 					../../../libs/cairo/include,
 					../../../libs/poco/include,
+					../../../libs/kiss/include,
+					../../../libs/sndfile/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -606,6 +612,8 @@
 					../../../libs/fmodex/include,
 					../../../libs/cairo/include,
 					../../../libs/poco/include,
+					../../../libs/kiss/include,
+					../../../libs/sndfile/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;

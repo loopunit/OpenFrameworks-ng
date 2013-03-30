@@ -66,7 +66,6 @@
 		CAC9D1E516F8C319004A69DA /* ofBaseSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D15916F8C319004A69DA /* ofBaseSoundPlayer.cpp */; };
 		CAC9D1E716F8C319004A69DA /* ofBaseSoundStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D15B16F8C319004A69DA /* ofBaseSoundStream.cpp */; };
 		CAC9D1E916F8C319004A69DA /* ofFmodSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D15D16F8C319004A69DA /* ofFmodSoundPlayer.cpp */; };
-		CAC9D1EB16F8C319004A69DA /* ofOpenALSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D15F16F8C319004A69DA /* ofOpenALSoundPlayer.cpp */; };
 		CAC9D1ED16F8C319004A69DA /* ofPASoundStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D16116F8C319004A69DA /* ofPASoundStream.cpp */; };
 		CAC9D1EF16F8C319004A69DA /* ofRtAudioSoundStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D16316F8C319004A69DA /* ofRtAudioSoundStream.cpp */; };
 		CAC9D1F116F8C319004A69DA /* ofSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D16516F8C319004A69DA /* ofSoundPlayer.cpp */; };
@@ -81,6 +80,7 @@
 		CAC9D20616F8C319004A69DA /* ofThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D17C16F8C319004A69DA /* ofThread.cpp */; };
 		CAC9D20816F8C319004A69DA /* ofURLFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D17E16F8C319004A69DA /* ofURLFileLoader.cpp */; };
 		CAC9D20A16F8C319004A69DA /* ofUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D18016F8C319004A69DA /* ofUtils.cpp */; };
+		CADDDC2D170744DC00753481 /* ofOpenALSoundPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAC9D15F16F8C319004A69DA /* ofOpenALSoundPlayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -647,7 +647,6 @@
 				CAC9D1E516F8C319004A69DA /* ofBaseSoundPlayer.cpp in Sources */,
 				CAC9D1E716F8C319004A69DA /* ofBaseSoundStream.cpp in Sources */,
 				CAC9D1E916F8C319004A69DA /* ofFmodSoundPlayer.cpp in Sources */,
-				CAC9D1EB16F8C319004A69DA /* ofOpenALSoundPlayer.cpp in Sources */,
 				CAC9D1ED16F8C319004A69DA /* ofPASoundStream.cpp in Sources */,
 				CAC9D1EF16F8C319004A69DA /* ofRtAudioSoundStream.cpp in Sources */,
 				CAC9D1F116F8C319004A69DA /* ofSoundPlayer.cpp in Sources */,
@@ -668,6 +667,7 @@
 				CAC3C7271703B2310062BF8A /* AVFoundationVideoPlayer.m in Sources */,
 				CAC3C72E1703D27D0062BF8A /* ofAVFoundationVideoGrabber.mm in Sources */,
 				CAC3C72F1703D27D0062BF8A /* ofAVFoundationVideoPlayer.mm in Sources */,
+				CADDDC2D170744DC00753481 /* ofOpenALSoundPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,6 +709,7 @@
 					../../../../kiss/include,
 					../../../../rtAudio/include,
 					../../../../fmodex/include,
+					../../../../sndfile/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -745,6 +746,7 @@
 					../../../../kiss/include,
 					../../../../rtAudio/include,
 					../../../../fmodex/include,
+					../../../../sndfile/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;

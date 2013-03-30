@@ -1,4 +1,27 @@
 //THE PATH TO THE ROOT OF OUR OF PATH RELATIVE TO THIS PROJECT.
 //THIS NEEDS TO BE DEFINED BEFORE CoreOF.xcconfig IS INCLUDED
 OF_PATH = ../../..
-OF_CORE_LIBS = "$(OF_PATH)/libs/fmodex/lib/osx64/libfmodex.dylib"
+
+LIB_FMOD = "$(OF_PATH)/libs/fmodex/lib/osx64/libfmodex.dylib"
+OF_CORE_LIBS = $(LIB_FMOD)
+
+HEADER_OF_1 = "$(OF_PATH)/libs/openFrameworks/3d"
+HEADER_OF_2 = "$(OF_PATH)/libs/openFrameworks/app"
+HEADER_OF_3 = "$(OF_PATH)/libs/openFrameworks/communication"
+HEADER_OF_4 = "$(OF_PATH)/libs/openFrameworks/events"
+HEADER_OF_5 = "$(OF_PATH)/libs/openFrameworks/gl"
+HEADER_OF_6 = "$(OF_PATH)/libs/openFrameworks/graphics"
+HEADER_OF_7 = "$(OF_PATH)/libs/openFrameworks/math"
+HEADER_OF_8 = "$(OF_PATH)/libs/openFrameworks/sound"
+HEADER_OF_9 = "$(OF_PATH)/libs/openFrameworks/types"
+HEADER_OF_10 = "$(OF_PATH)/libs/openFrameworks/utils"
+HEADER_OF_11 = "$(OF_PATH)/libs/openFrameworks/video"
+HEADER_OF = "$(OF_PATH)/libs/openFrameworks" $(HEADER_OF_1) $(HEADER_OF_2) $(HEADER_OF_3) $(HEADER_OF_4) $(HEADER_OF_5) $(HEADER_OF_6) $(HEADER_OF_7) $(HEADER_OF_8) $(HEADER_OF_9) $(HEADER_OF_10) $(HEADER_OF_11)
+
+HEADER_TESS = "$(OF_PATH)/libs/tess2/include"
+HEADER_FMOD = "$(OF_PATH)/libs/fmodex/include"
+HEADER_CAIRO = "$(OF_PATH)/libs/cairo/include"
+HEADER_KISS = "$(OF_PATH)/libs/kiss/include"
+HEADER_SNDFILE = "$(OF_PATH)/libs/sndfile/include"
+HEADER_POCO = "$(OF_PATH)/libs/poco/include"
+OF_CORE_INCLUDES = $(HEADER_OF) $(HEADER_TESS) $(HEADER_FMOD) $(HEADER_CAIRO) $(HEADER_KISS) $(HEADER_SNDFILE) $(HEADER_POCO)
