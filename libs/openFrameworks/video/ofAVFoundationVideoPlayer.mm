@@ -40,14 +40,16 @@ bool ofAVFoundationVideoPlayer::loadMovie(string name) {
         [(AVFoundationVideoPlayer *)videoPlayer setWillBeUpdatedExternally:YES];
     }
     
-    NSString * videoPath = [[[NSString alloc] initWithCString: ofToDataPath(name).c_str()] autorelease];
-    [(AVFoundationVideoPlayer*)videoPlayer loadWithPath:videoPath];
+	NSString * videoPath = [[NSString stringWithUTF8String:ofToDataPath(name).c_str()] autorelease];
+    bool res = [(AVFoundationVideoPlayer*)videoPlayer loadWithPath:videoPath];
     
     bResetPixels = true;
     bResetTexture = true;
     bUpdatePixels = true;
     bUpdatePixelsToRgb = true;
     bUpdateTexture = true;
+	
+	return res;
     
 #if 0 // #ifdef __IPHONE_5_0
     if(bTextureCacheSupported) {
