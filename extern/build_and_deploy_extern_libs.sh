@@ -56,6 +56,10 @@ cp ~/gtk/inst/lib/libfreetype*.a ../libs/freetype/lib/osx64
 cp -R ~/gtk/inst/include/Poco ../libs/poco/include
 cp ~/gtk/inst/libPoco*.a ../libs/poco/lib/osx64
 
+# glew
+cp -R ~/gtk/inst/include/GL ../libs/glew/include
+cp ~/gtk/inst/lib/libGLEW*.a ../libs/glew/lib/osx64
+
 #fmod
 hdiutil attach -mountpoint ./fmod trees/fmodapi44410mac-installer.dmg
 cp fmod/FMOD\ Programmers\ API/api/inc/*.h ../libs/fmodex/include/
