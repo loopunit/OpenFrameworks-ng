@@ -49,7 +49,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <string>
 #include <utility>
 
-#include <boost/shared_ptr.hpp>
+#include "boostworkaround/boost/shared_ptr.hpp"
 
 #include "LogAux.h"
 

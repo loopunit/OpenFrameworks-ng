@@ -52,8 +52,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "FileLogStream.h"
 
 #ifndef ASSIMP_BUILD_SINGLETHREADED
-#	include <boost/thread/thread.hpp>
-#	include <boost/thread/mutex.hpp>
+#	include "boostworkaround/boost/thread/thread.hpp"
+#	include "boostworkaround/boost/thread/mutex.hpp"
 
 boost::mutex loggerMutex;
 #endif

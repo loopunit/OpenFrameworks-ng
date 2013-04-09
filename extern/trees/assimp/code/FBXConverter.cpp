@@ -52,7 +52,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define tuple_get(T, IDX) \
 std::get<IDX>(T)
 #else
-#include <boost/tuple/tuple.hpp>
+#include "boostworkaround/boost/tuple/tuple.hpp"
 #define tuple_namespace boost
 #define tuple_get(T, IDX) \
 T.get<IDX>()

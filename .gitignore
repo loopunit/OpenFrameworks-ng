@@ -14,3 +14,8 @@
 .deps
 .dep
 extern/trees/poco
+extern/trees/assimp/CMakeFiles
+extern/trees/assimp/code/CMakeFiles
+extern/trees/assimp/tools/assimp_cmd/CMakeFiles
+extern/trees/assimp/CMakeCache.txt
+extern/trees/assimp/install_manifest.txt

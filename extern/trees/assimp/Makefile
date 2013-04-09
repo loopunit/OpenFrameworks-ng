@@ -39,10 +39,10 @@ RM = /usr/local/Cellar/cmake/2.8.8/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/local/Cellar/cmake/2.8.8/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp
+CMAKE_SOURCE_DIR = /Users/krysmopompas/dev/OpenFrameworks-ng/extern/trees/assimp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp
+CMAKE_BINARY_DIR = /Users/krysmopompas/dev/OpenFrameworks-ng/extern/trees/assimp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,9 +110,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/krysmopompas/dev/OpenFrameworks-ng/extern/trees/assimp/CMakeFiles /Users/krysmopompas/dev/OpenFrameworks-ng/extern/trees/assimp/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/krysmopompas/dev/OpenFrameworks-ng/extern/trees/assimp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

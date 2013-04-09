@@ -120,16 +120,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <memory>
 
 // Boost headers
-#include <boost/pointer_cast.hpp>
-#include <boost/scoped_ptr.hpp>
-#include <boost/scoped_array.hpp>
-#include <boost/shared_ptr.hpp>
-#include <boost/shared_array.hpp>
-#include <boost/make_shared.hpp>
-#include <boost/format.hpp>
-#include <boost/foreach.hpp>
-#include <boost/static_assert.hpp>
-#include <boost/lexical_cast.hpp>
+#include "boostworkaround/boost/pointer_cast.hpp"
+#include "boostworkaround/boost/scoped_ptr.hpp"
+#include "boostworkaround/boost/scoped_array.hpp"
+#include "boostworkaround/boost/shared_ptr.hpp"
+#include "boostworkaround/boost/shared_array.hpp"
+#include "boostworkaround/boost/make_shared.hpp"
+#include "boostworkaround/boost/format.hpp"
+#include "boostworkaround/boost/foreach.hpp"
+#include "boostworkaround/boost/static_assert.hpp"
+#include "boostworkaround/boost/lexical_cast.hpp"
 
 // Public ASSIMP headers
 #include "../include/assimp/DefaultLogger.hpp"

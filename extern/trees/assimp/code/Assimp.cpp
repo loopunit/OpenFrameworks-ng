@@ -39,7 +39,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ---------------------------------------------------------------------------
 */
 /** @file  Assimp.cpp
- *  @brief Implementation of the Plain-C API
+ *  @brief Implementation of the Plain-C APIxs
  */
 
 #include "AssimpPCH.h"
@@ -51,8 +51,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 // ------------------------------------------------------------------------------------------------
 #ifdef AI_C_THREADSAFE
-#	include <boost/thread/thread.hpp>
-#	include <boost/thread/mutex.hpp>
+#	include "boostworkaround/boost/thread/thread.hpp"
+#	include "boostworkaround/boost/thread/mutex.hpp"
 #endif
 // ------------------------------------------------------------------------------------------------
 using namespace Assimp;

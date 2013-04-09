@@ -1,5 +1,0 @@
-/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/ALL_BUILD.dir
-/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/ZERO_CHECK.dir
-/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/code/CMakeFiles/assimp.dir
-/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir
-/Volumes/bigdisk/Users/krysmopompas/dev/projects/openJuceworks/extern/trees/assimp/CMakeFiles/uninstall.dir

@@ -1,9 +1,9 @@
 #! /bin/sh
 
-cd proj/assimp
-xcodebuild install
-xcodebuild clean
-cd ../..
+#cd proj/assimp
+#xcodebuild install
+#xcodebuild clean
+#cd ../..
 
 cd proj/freeimage
 xcodebuild install
@@ -59,6 +59,10 @@ cp ~/gtk/inst/libPoco*.a ../libs/poco/lib/osx64
 # glew
 cp -R ~/gtk/inst/include/GL ../libs/glew/include
 cp ~/gtk/inst/lib/libGLEW*.a ../libs/glew/lib/osx64
+
+# assimp
+cp -R ~/gtk/inst/include/assimp ../libs/assimp/include
+cp ~/gtk/inst/lib/libassimp3.0.a ../libs/assimp/lib/osx64/libassimp.a
 
 #fmod
 hdiutil attach -mountpoint ./fmod trees/fmodapi44410mac-installer.dmg
