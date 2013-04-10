@@ -61,7 +61,7 @@ cp -R ~/gtk/inst/include/GL ../libs/glew/include
 cp ~/gtk/inst/lib/libGLEW*.a ../libs/glew/lib/osx64
 
 # assimp
-cp -R ~/gtk/inst/include/assimp ../libs/assimp/include
+cp -R ~/gtk/inst/include/assimp ../libs/assimp/include/assimp/
 cp ~/gtk/inst/lib/libassimp3.0.a ../libs/assimp/lib/osx64/libassimp.a
 
 #fmod

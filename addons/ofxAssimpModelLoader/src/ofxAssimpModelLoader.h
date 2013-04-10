@@ -130,8 +130,8 @@ class ofxAssimpModelLoader{
         // updates the *actual GL resources* for the current animation
         void updateGLResources();
     
-        void getBoundingBoxWithMinVector(struct aiVector3D* min, struct aiVector3D* max);
-        void getBoundingBoxForNode(const struct aiNode* nd,  struct aiVector3D* min, struct aiVector3D* max, struct aiMatrix4x4* trafo);
+        void getBoundingBoxWithMinVector(aiVector3D* min, aiVector3D* max);
+        void getBoundingBoxForNode(const aiNode* nd,  aiVector3D* min, aiVector3D* max, aiMatrix4x4* trafo);
 
         ofFile file;
         

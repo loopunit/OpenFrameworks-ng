@@ -1,10 +1,11 @@
 #include "ofxAssimpModelLoader.h"
 #include "ofxAssimpUtils.h"
 
-#include "assimp.h"
-#include "aiScene.h"
-#include "aiConfig.h"
-#include "aiPostProcess.h"
+#include "assimp/Importer.hpp"
+#include "assimp/cimport.h"
+#include "assimp/scene.h"
+#include "assimp/config.h"
+#include "assimp/postprocess.h"
 
 ofxAssimpModelLoader::ofxAssimpModelLoader(){
 	scene = NULL;
@@ -40,9 +41,11 @@ bool ofxAssimpModelLoader::loadModel(ofBuffer & buffer, bool optimize, const cha
         clear();
     }
     
+	aiPropertyStore* propStore = aiCreatePropertyStore();
+	
 	// only ever give us triangles.
-	aiSetImportPropertyInteger(AI_CONFIG_PP_SBP_REMOVE, aiPrimitiveType_LINE | aiPrimitiveType_POINT );
-	aiSetImportPropertyInteger(AI_CONFIG_PP_PTV_NORMALIZE, true);
+	aiSetImportPropertyInteger(propStore, AI_CONFIG_PP_SBP_REMOVE, aiPrimitiveType_LINE | aiPrimitiveType_POINT );
+	aiSetImportPropertyInteger(propStore, AI_CONFIG_PP_PTV_NORMALIZE, true);
 
 	// aiProcess_FlipUVs is for VAR code. Not needed otherwise. Not sure why.
 	unsigned int flags = aiProcessPreset_TargetRealtime_MaxQuality | aiProcess_Triangulate | aiProcess_FlipUVs;
@@ -50,7 +53,10 @@ bool ofxAssimpModelLoader::loadModel(ofBuffer & buffer, bool optimize, const cha
 			aiProcess_OptimizeMeshes | aiProcess_JoinIdenticalVertices |
 			aiProcess_RemoveRedundantMaterials;
 
-	scene = aiImportFileFromMemory(buffer.getBinaryBuffer(), buffer.size(), flags, extension);
+	scene = aiImportFileFromMemory(buffer.getBinaryBuffer(), (unsigned int)buffer.size(), flags, extension);
+	
+	aiReleasePropertyStore(propStore);
+
     
 	if(scene){
 		calculateDimensions();
@@ -361,9 +367,9 @@ void ofxAssimpModelLoader::updateBones() {
 			modelMeshes[i].validCache = false;
 		}
         
-		modelMeshes[i].animatedPos.assign(modelMeshes[i].animatedPos.size(),0);
+		modelMeshes[i].animatedPos.assign(modelMeshes[i].animatedPos.size(),aiVector3D());
 		if(mesh->HasNormals()){
-			modelMeshes[i].animatedNorm.assign(modelMeshes[i].animatedNorm.size(),0);
+			modelMeshes[i].animatedNorm.assign(modelMeshes[i].animatedNorm.size(),aiVector3D());
 		}
 		// loop through all vertex weights of all bones
 		for(int a=0; a<mesh->mNumBones; ++a) {
@@ -525,9 +531,9 @@ ofxAssimpMeshHelper & ofxAssimpModelLoader::getMeshHelper(int meshIndex) {
 }
 
 //-------------------------------------------
-void ofxAssimpModelLoader::getBoundingBoxWithMinVector(struct aiVector3D* min, struct aiVector3D* max)
+void ofxAssimpModelLoader::getBoundingBoxWithMinVector(aiVector3D* min, aiVector3D* max)
 {
-	struct aiMatrix4x4 trafo;
+	aiMatrix4x4 trafo;
 	aiIdentityMatrix4(&trafo);
 
 	min->x = min->y = min->z =  1e10f;
@@ -537,18 +543,18 @@ void ofxAssimpModelLoader::getBoundingBoxWithMinVector(struct aiVector3D* min, s
 }
 
 //-------------------------------------------
-void ofxAssimpModelLoader::getBoundingBoxForNode(const struct aiNode* nd,  struct aiVector3D* min, struct aiVector3D* max, struct aiMatrix4x4* trafo)
+void ofxAssimpModelLoader::getBoundingBoxForNode(const aiNode* nd,  aiVector3D* min, aiVector3D* max, aiMatrix4x4* trafo)
 {
-	struct aiMatrix4x4 prev;
+	aiMatrix4x4 prev;
 	unsigned int n = 0, t;
 
 	prev = *trafo;
 	aiMultiplyMatrix4(trafo,&nd->mTransformation);
 
 	for (; n < nd->mNumMeshes; ++n){
-		const struct aiMesh* mesh = scene->mMeshes[nd->mMeshes[n]];
+		const aiMesh* mesh = scene->mMeshes[nd->mMeshes[n]];
 		for (t = 0; t < mesh->mNumVertices; ++t){
-        	struct aiVector3D tmp = mesh->mVertices[t];
+        	aiVector3D tmp = mesh->mVertices[t];
 			aiTransformVecByMatrix4(&tmp,trafo);
 
 

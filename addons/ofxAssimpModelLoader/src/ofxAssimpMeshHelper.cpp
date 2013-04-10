@@ -5,7 +5,7 @@
 
 #include "ofxAssimpMeshHelper.h"
 #include "ofxAssimpUtils.h"
-#include "aiMesh.h"
+#include "assimp/mesh.h"
 
 ofxAssimpMeshHelper::ofxAssimpMeshHelper() {
     mesh = NULL;

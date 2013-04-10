@@ -6,7 +6,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "assimp.h"
+#include "assimp/Importer.hpp"
 
 class aiMesh;
 

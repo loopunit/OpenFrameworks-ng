@@ -4,8 +4,8 @@
 //
 
 #include "ofxAssimpAnimation.h"
-#include "assimp.h"
-#include "aiScene.h"
+#include "assimp/Importer.hpp"
+#include "assimp/scene.h"
 
 ofxAssimpAnimation::ofxAssimpAnimation(const aiScene * scene, aiAnimation * animation) {
     this->scene = scene;
