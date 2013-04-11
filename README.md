@@ -7,7 +7,6 @@ TODO:
 *Replace GLUT with NSOpenGL
 
 *Port core addons:
-	ofxAssimpModelLoader
 	ofxOpenCv
 
 *Build OpenCV

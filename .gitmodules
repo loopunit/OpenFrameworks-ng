@@ -1,0 +1,3 @@
+[submodule "extern/trees/opencv"]
+	path = extern/trees/opencv
+	url = git://github.com/Itseez/opencv.git
