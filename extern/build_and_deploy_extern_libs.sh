@@ -64,6 +64,10 @@ cp ~/gtk/inst/lib/libGLEW*.a ../libs/glew/lib/osx64
 cp -R ~/gtk/inst/include/assimp ../libs/assimp/include/assimp/
 cp ~/gtk/inst/lib/libassimp3.0.a ../libs/assimp/lib/osx64/libassimp.a
 
+cp -R ~/gtk/inst/include/opencv ../addons/ofxOpenCv/libs/opencv/include/opencv/
+cp -R ~/gtk/inst/include/opencv2 ../addons/ofxOpenCv/libs/opencv/include/opencv2/
+cp ~/gtk/inst/lib/libopencv*.a ../addons/ofxOpenCv/libs/opencv/lib/osx64
+
 #fmod
 hdiutil attach -mountpoint ./fmod trees/fmodapi44410mac-installer.dmg
 cp fmod/FMOD\ Programmers\ API/api/inc/*.h ../libs/fmodex/include/
