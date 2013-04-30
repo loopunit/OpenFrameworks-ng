@@ -1,9 +1,6 @@
 #! /bin/sh
 
-#cd proj/assimp
-#xcodebuild install
-#xcodebuild clean
-#cd ../..
+# see building_external_deps.rtf for notes on how all the libs were built.
 
 cd proj/freeimage
 xcodebuild install
